@@ -1,0 +1,15 @@
+*.py linguist-language=python
+*.pyc linguist-language=python
+*.egg linguist-language=python
+*.whl linguist-language=python
+*.ps1 linguist-language=powershell
+*.md linguist-language=markdown
+
+*.doc linguist-language=python
+*.docx linguist-language=python
+*.mhtml linguist-language=python
+*.odt linguist-language=python
+*.pdf linguist-language=python
+*.rtf linguist-language=python
+*.xml linguist-language=python
+*.xps linguist-language=python

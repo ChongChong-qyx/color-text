@@ -3,30 +3,33 @@ Examples.
 例子。
 """
 
-import os
 import sys
+from platform import system
 
-from color_text import output_example
-from color_text import get_input_example
-from color_text.PyQt5_util import SetControlTextColor
+if system() == 'Windows':
 
-print("color_text output example")
-output_example('0x409')
+	from color_text import output_example
+	from color_text import get_input_example
+	from color_text.PyQt5_util import SetControlTextColor
+	import os
 
-print("\n")
+	print("color_text output example")
+	output_example('0x409')
 
-print("color_text 输出示例")
-output_example('0x804')
+	print("\n")
 
-print("\n")
+	print("color_text 输出示例")
+	output_example('0x804')
 
-print("color_text get input example")
-get_input_example('0x409')
+	print("\n")
 
-print("\n")
+	print("color_text get input example")
+	get_input_example('0x409')
 
-print("color_text 获取输入示例")
-get_input_example('0x804')
+	print("\n")
+
+	print("color_text 获取输入示例")
+	get_input_example('0x804')
 
 def check_qt():
 	try:
@@ -69,4 +72,5 @@ if qt[0]:
 	example_window.show()
 	example_app.exec_()
 
-os.system('pause')
+if system() == 'Windows':
+	os.system('pause')

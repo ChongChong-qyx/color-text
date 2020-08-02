@@ -264,7 +264,7 @@ if system() == 'Windows':
 
 	def get_input_example(computer_language=computer_language, time_to_sleep=0):
 		"""
-		A Example of get input.
+		An Example of getting input.
 		一个获取输入的例子。
 		"""
 		if computer_language == 0x409 or computer_language == '0x409' or computer_language == 'English' or computer_language == 'english' or computer_language == u'英文' or computer_language == u'英语' or computer_language == 1033 or computer_language == '1033':

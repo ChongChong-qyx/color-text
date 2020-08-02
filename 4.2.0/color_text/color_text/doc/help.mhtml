@@ -1,29 +1,29 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: file:///C:/Users/chongchong/AppData/Local/Temp/MarkdownPadPreview.html
 Subject: help
-Date: Tue, 28 Jul 2020 13:50:59 -0000
+Date: Sun, 2 Aug 2020 14:43:06 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--PWupStzSxH90kbzqvCocUySFo4ggqL0fdlfKDnSGJr----"
+	boundary="----MultipartBoundary--zBtKysupsFjaEEddS04rHLI5IkdN8UmE5GbTxPk7BS----"
 
 
-------MultipartBoundary--PWupStzSxH90kbzqvCocUySFo4ggqL0fdlfKDnSGJr----
+------MultipartBoundary--zBtKysupsFjaEEddS04rHLI5IkdN8UmE5GbTxPk7BS----
 Content-Type: text/html
-Content-ID: <frame-DDD7685B16F6A41B1113D89813B1B94D@mhtml.blink>
+Content-ID: <frame-93A755C07AE0C1A97313F56528720669@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/Users/chongchong/AppData/Local/Temp/MarkdownPadPreview.html
 
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
-"cid:css-6987fe70-0f62-40b1-8927-b0f3f9c519c8@mhtml.blink" />
+"cid:css-9757d07a-1260-4bb6-9606-678ad659f157@mhtml.blink" />
 <title>help</title>
 
 
 <base href=3D"file:///D:/%E8%99%AB%E8%99%AB%E6%96%87%E4%BB%B6/%E7%A8%8B%E5%=
 BA%8F/%E7%A8%8B%E5%BA%8F/Python/%E9%A1%B9%E7%9B%AE/%E7%AC%AC%E4%B8%89%E6%96=
 %B9%E5%BA%93%E6%BA%90%E4%BB%A3%E7%A0%81/color_text/%E6%BA%90%E4%BB%A3%E7%A0=
-%81/4.1.0/color_text/color_text/doc/">
+%81/4.2.0/color_text/color_text/doc/">
 </head>
 <body>
 <h1>color_text</h1>
@@ -257,7 +257,8 @@ ult values as above.
 =8C=E5=8F=82=E6=95=B0=E5=92=8C=E4=B8=8A=E9=9D=A2=E4=B8=80=E6=A0=B7=EF=BC=8C=
 =E9=BB=98=E8=AE=A4=E5=80=BC=E4=B9=9F=E4=B8=80=E6=A0=B7=E3=80=82
 </code></pre>
-<h3>3.Set color   =E8=AE=BE=E7=BD=AE=E9=A2=9C=E8=89=B2</h3>
+<h3>3.Set Consoles color   =E8=AE=BE=E7=BD=AE=E6=8E=A7=E5=88=B6=E5=8F=B0=E9=
+=A2=9C=E8=89=B2</h3>
 <pre><code class=3D"language-python">from color_text import *
 
 set_cmd_text_color(color, handle =3D std_out_handle)
@@ -286,8 +287,9 @@ fault is std_out_handle).</p>
 <h3>4.Change the color of text of PyQt5 and PySide2 controls   =E6=9B=B4=E6=
 =94=B9 PyQt5 =E5=92=8C PySide2 =E7=9A=84=E6=8E=A7=E4=BB=B6=E7=9A=84=E6=96=
 =87=E5=AD=97=E7=9A=84=E9=A2=9C=E8=89=B2</h3>
-<pre><code class=3D"language-python">SetControlTextColor(control, color, co=
-ntrols=3D"*)
+<pre><code class=3D"language-python">from color_text.PyQt5_util import *
+
+SetControlTextColor(control, color, controls=3D"*)
 </code></pre>
 <p>In the above example, replace the control parameter with your control ,t=
 he color parameter with the color you want and replae the controls paramete=
@@ -328,6 +330,123 @@ controls, use" * ".</p>
 =A3=E4=B8=AA=E6=8E=A7=E4=BB=B6=EF=BC=8C=E5=A6=82=E6=9E=9C=E8=A6=81=E6=9B=B4=
 =E6=94=B9=E5=85=A8=E9=83=A8=E6=8E=A7=E4=BB=B6=E7=9A=84=E6=96=87=E5=AD=97=E9=
 =A2=9C=E8=89=B2=EF=BC=8C=E7=94=A8=E2=80=9C*=E2=80=9D=E3=80=82</p>
+<h3>5.Add image and text watermark to video   =E7=BB=99=E8=A7=86=E9=A2=91=
+=E6=B7=BB=E5=8A=A0=E5=9B=BE=E7=89=87=E3=80=81=E6=96=87=E5=AD=97=E6=B0=B4=E5=
+=8D=B0</h3>
+<h4>Add a image watermark   =E6=B7=BB=E5=8A=A0=E5=9B=BE=E7=89=87=E6=B0=B4=
+=E5=8D=B0</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+AddPhotoWatermarkToVideoFile(video_file, ouput_file, pos, photo_file, show_=
+informations=3DFalse)
+</code></pre>
+<h5>Parameters description =E5=8F=82=E6=95=B0=E8=AF=B4=E6=98=8E</h5>
+<h6>video_file</h6>
+<p>The file to be watermarked.</p>
+<p>=E8=A6=81=E8=A2=AB=E6=B7=BB=E5=8A=A0=E6=B0=B4=E5=8D=B0=E7=9A=84=E6=96=87=
+=E4=BB=B6=E3=80=82</p>
+<h6>output_file</h6>
+<p>Output file.</p>
+<p>=E8=BE=93=E5=87=BA=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>pos</h6>
+<p>The watermark position.</p>
+<p>=E6=B0=B4=E5=8D=B0=E6=96=B9=E4=BD=8D</p>
+<p>How to write it: (x-coordinate, y-coordinate)</p>
+<p>=E5=86=99=E6=B3=95=EF=BC=9A(x=E5=9D=90=E6=A0=87, y=E5=9D=90=E6=A0=87)</p=
+>
+<h6>photo_file</h6>
+<p>Image file.</p>
+<p>=E5=9B=BE=E7=89=87=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>show_informations</h6>
+<p>Whether to display the information given by FFmpeg, default value is Fal=
+se.</p>
+<p>=E6=98=AF=E5=90=A6=E6=98=BE=E7=A4=BA=E7=94=B1 FFmpeg =E7=BB=99=E5=87=BA=
+=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA Fa=
+lse=E3=80=82</p>
+<h4>Add a text watermark   =E6=B7=BB=E5=8A=A0=E6=96=87=E5=AD=97=E6=B0=B4=E5=
+=8D=B0</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+AddTextWatermarkToVideoFile(video_file, output_file, pos, font_file, text, =
+font_size, font_color, shadowy, show_informations=3DFalse)
+</code></pre>
+<h5>Parameters description =E5=8F=82=E6=95=B0=E8=AF=B4=E6=98=8E</h5>
+<h6>video_file</h6>
+<p>The file to be watermarked.</p>
+<p>=E8=A6=81=E8=A2=AB=E6=B7=BB=E5=8A=A0=E6=B0=B4=E5=8D=B0=E7=9A=84=E6=96=87=
+=E4=BB=B6=E3=80=82</p>
+<h6>output_file</h6>
+<p>Output file.</p>
+<p>=E8=BE=93=E5=87=BA=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>pos</h6>
+<p>The watermark position.</p>
+<p>=E6=B0=B4=E5=8D=B0=E6=96=B9=E4=BD=8D</p>
+<p>How to write it: (x-coordinate, y-coordinate)</p>
+<p>=E5=86=99=E6=B3=95=EF=BC=9A(x=E5=9D=90=E6=A0=87, y=E5=9D=90=E6=A0=87)</p=
+>
+<h6>font_file</h6>
+<p>Font file.</p>
+<p>=E5=AD=97=E4=BD=93=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>text</h6>
+<p>Text in watermarks.</p>
+<p>=E6=B0=B4=E5=8D=B0=E4=B8=AD=E7=9A=84=E6=96=87=E5=AD=97=E3=80=82</p>
+<h6>font_size</h6>
+<p>Font size.</p>
+<p>=E6=96=87=E5=AD=97=E5=A4=A7=E5=B0=8F=E3=80=82</p>
+<h6>font_color</h6>
+<p>Font color.</p>
+<p>=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=E3=80=82</p>
+<h6>shadowy</h6>
+<p>Shadow portion size.</p>
+<p>=E9=98=B4=E5=BD=B1=E9=83=A8=E5=88=86=E5=A4=A7=E5=B0=8F=E3=80=82</p>
+<h6>show_informations</h6>
+<p>Whether to display the information given by FFmpeg, default value is Fal=
+se.</p>
+<p>=E6=98=AF=E5=90=A6=E6=98=BE=E7=A4=BA=E7=94=B1 FFmpeg =E7=BB=99=E5=87=BA=
+=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA Fa=
+lse=E3=80=82</p>
+<h4>Add many watermarks   =E6=B7=BB=E5=8A=A0=E5=A4=A7=E9=87=8F=E6=B0=B4=E5=
+=8D=B0</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+AddWatermarksToVideoFile(video_file, output_file, show_informations=3DFalse=
+, *args)
+</code></pre>
+<p>Replace video_file in the above code with your video file, output_file w=
+ith the output file, show_informations with True (you want FFmpeg for the i=
+nformation) or False (you don't want FFmpeg for the information, which is a=
+lso the default), and args with multiple dictionaries (separated by ", ").<=
+/p>
+<p>=E8=AF=B7=E5=B0=86=E4=B8=8A=E9=9D=A2=E4=BB=A3=E7=A0=81=E4=B8=AD=E7=9A=84=
+ video_file =E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E7=9A=84=E8=A7=86=E9=A2=91=
+=E6=96=87=E4=BB=B6=EF=BC=8C=E5=B0=86 output_file =E6=9B=BF=E6=8D=A2=E8=BE=
+=93=E5=87=BA=E6=96=87=E4=BB=B6=EF=BC=8Cshow_informations =E6=9B=BF=E6=8D=A2=
+=E6=88=90 True=EF=BC=88=E4=BD=A0=E6=83=B3=E8=A6=81 FFmpeg =E6=8F=90=E4=BE=
+=9B=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=89=E6=88=96 False=EF=BC=88=E4=BD=A0=E4=
+=B8=8D=E6=83=B3=E8=A6=81 FFmpeg =E6=8F=90=E4=BE=9B=E7=9A=84=E4=BF=A1=E6=81=
+=AF=EF=BC=8C=E4=B9=9F=E6=98=AF=E9=BB=98=E8=AE=A4=E5=80=BC=EF=BC=89=EF=BC=8C=
+=E5=B0=86 args =E6=9B=BF=E6=8D=A2=E4=B8=BA=E5=A4=9A=E4=B8=AA=E5=AD=97=E5=85=
+=B8=EF=BC=88=E7=94=A8=E2=80=9C, =E2=80=9D =E5=88=86=E9=9A=94=EF=BC=89=E3=80=
+=82</p>
+<h5>args =E5=8F=82=E6=95=B0=E7=9A=84=E5=86=99=E6=B3=95</h5>
+<h6>Text watermark   =E6=96=87=E5=AD=97=E6=B0=B4=E5=8D=B0</h6>
+<p>{type: "photo", parameter: parameter}</p>
+<p>{type: "text", =E5=8F=82=E6=95=B0: =E5=8F=82=E6=95=B0}</p>
+<p>Note: please replace the above "parameter" with your parameters. See the=
+ article above for all parameters.</p>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E9=9D=A2=E7=9A=84=
+=E2=80=9C=E5=8F=82=E6=95=B0=E2=80=9D=E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E7=
+=9A=84=E5=8F=82=E6=95=B0=EF=BC=8C=E6=89=80=E6=9C=89=E5=8F=82=E6=95=B0=E8=A7=
+=81=E4=B8=8A=E9=9D=A2=E7=9A=84=E6=96=87=E7=AB=A0=E3=80=82</p>
+<h6>Image watermark   =E5=9B=BE=E7=89=87=E6=B0=B4=E5=8D=B0</h6>
+<p>{type: "photo", parameter: parameter}</p>
+<p>{type: "photo", =E5=8F=82=E6=95=B0: =E5=8F=82=E6=95=B0}</p>
+<p>Note: please replace the above "parameter" with your parameters. See the=
+ article above for all parameters.</p>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E9=9D=A2=E7=9A=84=
+=E2=80=9C=E5=8F=82=E6=95=B0=E2=80=9D=E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E7=
+=9A=84=E5=8F=82=E6=95=B0=EF=BC=8C=E6=89=80=E6=9C=89=E5=8F=82=E6=95=B0=E8=A7=
+=81=E4=B8=8A=E9=9D=A2=E7=9A=84=E6=96=87=E7=AB=A0=E3=80=82</p>
 <h2>All color variables   =E6=89=80=E6=9C=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=
 =87=8F</h2>
 <h3>Text colors   =E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2</h3>
@@ -407,50 +526,37 @@ ary and enter the following command at CMD.</p>
 =AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h2>
 <ul>
 <li>
-<p>Added the ability to select some small Qt5 control to change the text co=
-lor when changing the text color of a large Qt5 control.</p>
+<p>Added functions for adding image and text watermarks to videos.</p>
 </li>
 <li>
-<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=9B=B4=E6=94=B9=E5=A4=A7 Qt5 =E6=8E=A7=E4=
-=BB=B6=E7=9A=84=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=E6=97=B6=EF=BC=8C=E9=80=
-=89=E6=8B=A9=E8=A6=81=E6=9B=B4=E6=94=B9=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=
-=E7=9A=84=E5=B0=8F Qt5 =E6=8E=A7=E4=BB=B6=E7=9A=84=E5=8A=9F=E8=83=BD=E3=80=
-=82</p>
-</li>
-<li>
-<p>Added 3 EXE examples.</p>
-</li>
-<li>
-<p>=E5=A2=9E=E5=8A=A0=E4=BA=86 3 =E4=B8=AA EXE =E7=A4=BA=E4=BE=8B=E3=80=82<=
-/p>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=BB=99=E8=A7=86=E9=A2=91=E6=B7=BB=E5=8A=A0=
+=E5=9B=BE=E7=89=87=E3=80=81=E6=96=87=E5=AD=97=E6=B0=B4=E5=8D=B0=E7=9A=84=E5=
+=8A=9F=E8=83=BD=E3=80=82</p>
 </li>
 </ul>
 <h2>Repaired problems =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h2>
 <ul>
 <li>
-<p>Fixed a syntax error in the tutorial.</p>
-</li>
-<li>
-<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E4=B8=80=
-=E4=B8=AA=E8=AF=AD=E6=B3=95=E9=94=99=E8=AF=AF=E3=80=82</p>
-</li>
-<li>
-<p>Fixed an issue where modules related to Qt5 could not be imported in som=
-e cases.</p>
+<p>Fixed an issue where the example could not run in some cases.</p>
 </li>
 <li>
 <p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
-=E4=B8=8B=E6=97=A0=E6=B3=95=E5=AF=BC=E5=85=A5=E6=9C=89=E5=85=B3 Qt5 =E7=9A=
-=84=E6=A8=A1=E5=9D=97=E7=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
+=E4=B8=8B=E6=97=A0=E6=B3=95=E8=BF=90=E8=A1=8C=E7=A4=BA=E4=BE=8B=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82</p>
 </li>
 <li>
-<p>Fixed a problem that is other QSS failures after changing the text color=
- of the Qt5 control.</p>
+<p>Fixed some bugs.</p>
 </li>
 <li>
-<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=9B=B4=E6=94=B9 Qt5 =E6=8E=A7=E4=BB=B6=E7=
-=9A=84=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=E5=90=8E=EF=BC=8C=E5=85=B6=E5=AE=
-=83 QSS =E5=A4=B1=E6=95=88=E7=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E8=8B=A5=E5=B9=B2=E4=B8=AA bug=E3=80=82</p>
+</li>
+<li>
+<p>Fixed an issue where the modules could not import in some cases.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
+=E4=B8=8B=E6=97=A0=E6=B3=95=E5=AF=BC=E5=85=A5=E6=A8=A1=E5=9D=97=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82</p>
 </li>
 </ul>
 <h2>Update log   =E6=9B=B4=E6=96=B0=E6=97=A5=E5=BF=97</h2>
@@ -809,16 +915,54 @@ e cases.</p>
 =83 QSS =E5=A4=B1=E6=95=88=E7=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
 </li>
 </ul>
+<h3>4.2.0</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added functions for adding image and text watermarks to videos.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=BB=99=E8=A7=86=E9=A2=91=E6=B7=BB=E5=8A=A0=
+=E5=9B=BE=E7=89=87=E3=80=81=E6=96=87=E5=AD=97=E6=B0=B4=E5=8D=B0=E7=9A=84=E5=
+=8A=9F=E8=83=BD=E3=80=82</p>
+</li>
+</ul>
+<h4>Repaired problems =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed an issue where the example could not run in some cases.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
+=E4=B8=8B=E6=97=A0=E6=B3=95=E8=BF=90=E8=A1=8C=E7=A4=BA=E4=BE=8B=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed some bugs.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E8=8B=A5=E5=B9=B2=E4=B8=AA bug=E3=80=82</p>
+</li>
+<li>
+<p>Fixed an issue where the modules could not import in some cases.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
+=E4=B8=8B=E6=97=A0=E6=B3=95=E5=AF=BC=E5=85=A5=E6=A8=A1=E5=9D=97=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
 
 
 
 <!-- This document was created with MarkdownPad, the Markdown editor for Wi=
 ndows (http://markdownpad.com) -->
 </body></html>
-------MultipartBoundary--PWupStzSxH90kbzqvCocUySFo4ggqL0fdlfKDnSGJr----
+------MultipartBoundary--zBtKysupsFjaEEddS04rHLI5IkdN8UmE5GbTxPk7BS----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-6987fe70-0f62-40b1-8927-b0f3f9c519c8@mhtml.blink
+Content-Location: cid:css-9757d07a-1260-4bb6-9606-678ad659f157@mhtml.blink
 
 @charset "utf-8";
 
@@ -944,4 +1088,4 @@ table tr { border-top: 1px solid rgb(204, 204, 204); background-color: rgb(=
 table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
 
 img { max-width: 100%; }
-------MultipartBoundary--PWupStzSxH90kbzqvCocUySFo4ggqL0fdlfKDnSGJr------
+------MultipartBoundary--zBtKysupsFjaEEddS04rHLI5IkdN8UmE5GbTxPk7BS------

@@ -2,8 +2,8 @@ r"""
 This is a library for printing colored texts.
 这是一个用来打印彩色文字的库。
 
-教程见 https://pypi.org/project/color-text/ 或 Python 安装文件夹\Lib\site-packages\color_text\doc 中的教程。
-Tutorial see https://pypi.org/project/color-text/ or tutorials in Python installation folder\Lib\site-packages\color_text\doc.
+教程见 https://pypi.org/project/color-text/ 或 Python 安装文件夹\Lib\site-packages\color_text\doc 中的教程或 https://github.com/QiYixiang/color-text/。
+Tutorial see https://pypi.org/project/color-text/ or tutorials in Python installation folder\Lib\site-packages\color_text\doc or https://github.com/QiYixiang/color-text/.
 """
 
 from platform import system
@@ -34,7 +34,7 @@ __version__ = metadata["version"]
 __author__ = metadata["author"]
 __email__ = metadata["author-email"]
 __license__ = metadata["license"]
-__copyright__ = "Copyright 2020 齐奕翔"
+__copyright__ = "Copyright (C) 2020 齐奕翔"
 __version__ = _Version(__version__)
 __version__.init_version_variable('3', '1', '8')
 
@@ -55,6 +55,7 @@ if system() == 'Windows':
 	from .color import *
 	from .functions import *
 	from .handles import *
+	from .add_watermark import AddWatermarksToVideoFile, AddTextWatermarkToVideoFile, AddPhotoWatermarkToVideoFile
 	from . import PySide2_util
 	from . import PySide2_util
 
@@ -64,3 +65,9 @@ if system() == 'Windows':
 else:
 
 	del system
+
+	from . import PySide2_util
+	from . import PySide2_util
+
+	def examples():
+		import color_text.examples

@@ -239,7 +239,7 @@ GetOtherColorInput(prompt='', text_color=FOREGROUND_WHITE, background_color=BACK
 # 还可以用 GetInput() 函数，参数和上面一样，默认值也一样。
 ```
 
-### 3.Set color   设置颜色
+### 3.Set Consoles color   设置控制台颜色
 ```python
 from color_text import *
 
@@ -262,6 +262,8 @@ See the end of the tutorial for all handle variables.
 ### 4.Change the color of text of PyQt5 and PySide2 controls   更改 PyQt5 和 PySide2 的控件的文字的颜色
 
 ```python
+from color_text.PyQt5_util import *
+
 SetControlTextColor(control, color, controls="*)
 ```
 
@@ -289,6 +291,155 @@ rgb(red, green, blue)
 If you have many controls, use ", "to separate each control; if you have only one, write that control; if you want to change the text color of all controls, use" * ".
 
 如果有很多控件，用“, ”把每一个控件分开，如果只有一个控件，那就写那个控件，如果要更改全部控件的文字颜色，用“*”。
+
+
+### 5.Add image and text watermark to video   给视频添加图片、文字水印
+
+#### Add a image watermark   添加图片水印
+
+```python
+from color_text import *
+
+AddPhotoWatermarkToVideoFile(video_file, ouput_file, pos, photo_file, show_informations=False)
+```
+
+##### Parameters description 参数说明
+
+###### video_file
+
+The file to be watermarked.
+
+要被添加水印的文件。
+
+###### output_file
+
+Output file.
+
+输出文件。
+
+###### pos
+
+The watermark position.
+
+水印方位
+
+How to write it: (x-coordinate, y-coordinate)
+
+写法：(x坐标, y坐标)
+
+###### photo_file
+
+Image file.
+
+图片文件。
+
+###### show_informations
+
+Whether to display the information given by FFmpeg, default value is False.
+
+是否显示由 FFmpeg 给出的信息，默认值为 False。
+
+#### Add a text watermark   添加文字水印
+
+```python
+from color_text import *
+
+AddTextWatermarkToVideoFile(video_file, output_file, pos, font_file, text, font_size, font_color, shadowy, show_informations=False)
+```
+
+##### Parameters description 参数说明
+
+###### video_file
+
+The file to be watermarked.
+
+要被添加水印的文件。
+
+###### output_file
+
+Output file.
+
+输出文件。
+
+###### pos
+
+The watermark position.
+
+水印方位
+
+How to write it: (x-coordinate, y-coordinate)
+
+写法：(x坐标, y坐标)
+
+###### font_file
+
+Font file.
+
+字体文件。
+
+###### text
+
+Text in watermarks.
+
+水印中的文字。
+
+###### font_size
+
+Font size.
+
+文字大小。
+
+###### font_color
+
+Font color.
+
+文字颜色。
+
+###### shadowy
+
+Shadow portion size.
+
+阴影部分大小。
+
+###### show_informations
+
+Whether to display the information given by FFmpeg, default value is False.
+
+是否显示由 FFmpeg 给出的信息，默认值为 False。
+
+#### Add many watermarks   添加大量水印
+
+```python
+from color_text import *
+
+AddWatermarksToVideoFile(video_file, output_file, show_informations=False, *args)
+```
+
+Replace video_file in the above code with your video file, output_file with the output file, show_informations with True (you want FFmpeg for the information) or False (you don't want FFmpeg for the information, which is also the default), and args with multiple dictionaries (separated by ", ").
+
+请将上面代码中的 video_file 替换成你的视频文件，将 output_file 替换输出文件，show_informations 替换成 True（你想要 FFmpeg 提供的信息）或 False（你不想要 FFmpeg 提供的信息，也是默认值），将 args 替换为多个字典（用“, ” 分隔）。
+
+##### args 参数的写法
+
+###### Text watermark   文字水印
+
+{type: "photo", parameter: parameter}
+
+{type: "text", 参数: 参数}
+
+Note: please replace the above "parameter" with your parameters. See the article above for all parameters.
+
+注意：清把上面的“参数”替换成你的参数，所有参数见上面的文章。
+
+###### Image watermark   图片水印
+
+{type: "photo", parameter: parameter}
+
+{type: "photo", 参数: 参数}
+
+Note: please replace the above "parameter" with your parameters. See the article above for all parameters.
+
+注意：清把上面的“参数”替换成你的参数，所有参数见上面的文章。
 
 ## All color variables   所有颜色变量
 
@@ -402,27 +553,23 @@ color_text-examples
 
 ## What's new in this version   这个版本中的新功能
 
-- Added the ability to select some small Qt5 control to change the text color when changing the text color of a large Qt5 control.
+- Added functions for adding image and text watermarks to videos.
 
-- 增加了更改大 Qt5 控件的文字颜色时，选择要更改文字颜色的小 Qt5 控件的功能。
-
-- Added 3 EXE examples.
-
-- 增加了 3 个 EXE 示例。
+- 增加了给视频添加图片、文字水印的功能。
 
 ## Repaired problems 问题修复
 
-- Fixed a syntax error in the tutorial.
+- Fixed an issue where the example could not run in some cases.
 
-- 修复了教程中的一个语法错误。
+- 修复了在某些情况下无法运行示例的问题。
 
-- Fixed an issue where modules related to Qt5 could not be imported in some cases.
+- Fixed some bugs.
 
-- 修复了在某些情况下无法导入有关 Qt5 的模块的问题。
+- 修复了若干个 bug。
 
-- Fixed a problem that is other QSS failures after changing the text color of the Qt5 control.
+- Fixed an issue where the modules could not import in some cases.
 
-- 修复了更改 Qt5 控件的文字颜色后，其它 QSS 失效的问题。
+- 修复了在某些情况下无法导入模块的问题。
 
 ## Update log   更新日志
 
@@ -631,3 +778,25 @@ First version.
 - Fixed a problem that is other QSS failures after changing the text color of the Qt5 control.
 
 - 修复了更改 Qt5 控件的文字颜色后，其它 QSS 失效的问题。
+
+### 4.2.0
+
+#### What's new in this version   这个版本中的新功能
+
+- Added functions for adding image and text watermarks to videos.
+
+- 增加了给视频添加图片、文字水印的功能。
+
+#### Repaired problems 问题修复
+
+- Fixed an issue where the example could not run in some cases.
+
+- 修复了在某些情况下无法运行示例的问题。
+
+- Fixed some bugs.
+
+- 修复了若干个 bug。
+
+- Fixed an issue where the modules could not import in some cases.
+
+- 修复了在某些情况下无法导入模块的问题。
