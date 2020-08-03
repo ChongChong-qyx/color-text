@@ -1,0 +1,613 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/chongchong/AppData/Local/Temp/MarkdownPadPreview.html
+Subject: help
+Date: Fri, 3 Jul 2020 06:35:55 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--vbQRzhW1EGZypADSfvPryz6TlceErFqzbeA1bu7VnU----"
+
+
+------MultipartBoundary--vbQRzhW1EGZypADSfvPryz6TlceErFqzbeA1bu7VnU----
+Content-Type: text/html
+Content-ID: <frame-E12BC15B9EA67D6BAF84D9284B29287F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/chongchong/AppData/Local/Temp/MarkdownPadPreview.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-ffd08d2c-e930-4fcc-bd78-1174c435bfd2@mhtml.blink" />
+<title>help</title>
+
+
+<base href=3D"file:///D:/%E8%99%AB%E8%99%AB%E6%96%87%E4%BB%B6/%E7%A8%8B%E5%=
+BA%8F/%E7%A8%8B%E5%BA%8F/Python/%E9%A1%B9%E7%9B%AE/%E7%AC%AC%E4%B8%89%E6%96=
+%B9%E5%BA%93%E6%BA%90%E4%BB%A3%E7%A0%81/color_text/%E6%BA%90%E4%BB%A3%E7%A0=
+%81/3.1.7/color_text/color_text/">
+</head>
+<body>
+<h1>color_text</h1>
+<p>This is a library for printing colored texts.</p>
+<p>=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E7=94=A8=E6=9D=A5=E6=89=93=E5=8D=B0=
+=E5=BD=A9=E8=89=B2=E6=96=87=E5=AD=97=E7=9A=84=E5=BA=93=E3=80=82</p>
+<h2>Note  =E6=B3=A8=E6=84=8F</h2>
+<blockquote>
+<p>Best use in Python 3.8.</p>
+</blockquote>
+<blockquote>
+<p>=E6=9C=80=E5=A5=BD=E5=9C=A8 Python 3.8 =E4=B8=8A=E4=BD=BF=E7=94=A8=E3=80=
+=82</p>
+</blockquote>
+<blockquote>
+<p>Please use on Windows operating system.</p>
+</blockquote>
+<blockquote>
+<p>=E8=AF=B7=E5=9C=A8 Windows =E6=93=8D=E4=BD=9C=E7=B3=BB=E7=BB=9F=E4=B8=8A=
+=E4=BD=BF=E7=94=A8=E3=80=82</p>
+</blockquote>
+<h2>Install  =E5=AE=89=E8=A3=85</h2>
+<pre><code class=3D"language-bash">pip3 install color_text
+</code></pre>
+<h2>Usage  =E4=BD=BF=E7=94=A8=E6=96=B9=E6=B3=95</h2>
+<h3>Output   =E8=BE=93=E5=87=BA</h3>
+<h4>1.Print with a function that prints colored text  =E7=94=A8=E6=89=93=E5=
+=8D=B0=E5=BD=A9=E8=89=B2=E6=96=87=E5=AD=97=E7=9A=84=E5=87=BD=E6=95=B0=E6=89=
+=93=E5=8D=B0=E6=96=87=E5=AD=97</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+printLightRedText("This is a light red text.")
+printYellowText("This is a yellow text.")
+printRedText("This is a red text.")
+printGreenText("This is a green text.")
+printBlackText("This is a black text.")
+printBlueText("This is a blue text.")
+printPurpleText("This is a purple text.")
+printWhiteText("This is a white text.")
+printGreyText("This is a grey text.")
+printGrayText("This is a grey text too.")
+printLightBlueText("This is a light blue text.")
+printVeryLightGreenText("This is a very light green text.")
+printLightPurpleText("This is a light purple text.")
+printLightYellowText("This is a light yellow text.")
+printGlossWhiteText("This is a gloss white text.")
+printLightGreenText("This is a light green text.")
+printLightGreenText("This is a light green text too.", 2)
+
+# You can see the result of this example in the library's output_example() =
+function or by typing "color_text-example.cmd" in CMD after installing the =
+library.
+# =E4=BD=A0=E5=8F=AF=E4=BB=A5=E5=9C=A8=E8=BF=99=E4=B8=AA=E5=BA=93=E7=9A=84 =
+output_example() =E5=87=BD=E6=95=B0=E4=B8=AD=E6=88=96=E5=AE=89=E8=A3=85=E8=
+=BF=99=E4=B8=AA=E5=BA=93=E5=90=8E=E5=9C=A8 CMD =E4=B8=AD=E8=BE=93=E5=85=A5"=
+color_text-example.cmd"=E7=9C=8B=E5=88=B0=E8=BF=99=E4=B8=AA=E4=BE=8B=E5=AD=
+=90=E7=9A=84=E7=BB=93=E6=9E=9C=E3=80=82=EF=BC=88=E5=A6=82=E6=9E=9C=E8=AE=A1=
+=E7=AE=97=E6=9C=BA=E9=BB=98=E8=AE=A4=E8=AF=AD=E8=A8=80=E6=98=AF=E4=B8=AD=E6=
+=96=87=E7=9A=84=E5=B0=B1=E4=BC=9A=E7=9C=8B=E5=88=B0=E4=B8=AD=E6=96=87=E7=BB=
+=93=E6=9E=9C=EF=BC=8C=E5=87=BD=E6=95=B0=E7=9A=84=E9=A1=BA=E5=BA=8F=E6=98=AF=
+=E4=B8=80=E6=A0=B7=E7=9A=84=EF=BC=89
+</code></pre>
+<p>Parameters of all functions that print only one color text: values, end =
+(default is '\n')</p>
+<p>=E6=89=80=E6=9C=89=E5=8F=AA=E6=89=93=E5=8D=B0=E6=9F=90=E4=B8=80=E7=A7=8D=
+=E5=BD=A9=E8=89=B2=E6=96=87=E5=AD=97=E7=9A=84=E5=87=BD=E6=95=B0=E7=9A=84=E5=
+=8F=82=E6=95=B0=EF=BC=9Avalues, end =EF=BC=88=E9=BB=98=E8=AE=A4=E5=80=BC=E4=
+=B8=BA'\n'=EF=BC=89</p>
+<h4>2.Print text with custom colors   =E6=89=93=E5=8D=B0=E5=B8=A6=E6=9C=89=
+=E8=87=AA=E5=AE=9A=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E6=96=87=E6=9C=AC</h=
+4>
+<pre><code class=3D"language-python">from color_text import *
+printOtherColorText(values, text_color=3DFOREGROUND_WHITE, background_color=
+=3DBACKGROUND_BLACK, end=3D'\n')
+
+# Note: Put the text_color parameter and background_color parameter in the =
+last command to program the color variables you want. Please see the end of=
+ the tutorial for all color variables.
+# =E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E4=B8=80=E4=B8=AA=
+=E5=91=BD=E4=BB=A4=E4=B8=AD=E7=9A=84 text_color =E5=8F=82=E6=95=B0=E5=92=8C=
+ background_color =E5=8F=82=E6=95=B0=E7=BC=96=E7=A8=8B=E4=BD=A0=E6=83=B3=E8=
+=A6=81=E7=9A=84=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=EF=BC=8C=E6=89=80=E6=9C=
+=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=E8=AF=B7=E7=9C=8B=E6=95=99=E7=A8=8B=
+=E6=9C=80=E5=90=8E=EF=BC=8Cvalues =E5=8F=82=E6=95=B0=E6=98=AF=E8=A6=81=E6=
+=89=93=E5=8D=B0=E7=9A=84=E5=86=85=E5=AE=B9=EF=BC=8Cend =E5=8F=82=E6=95=B0=
+=E6=98=AF=E7=BB=93=E5=B0=BE=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA '\=
+n'=E3=80=82
+# You can also use the Print() function with the same arguments and default=
+ values.
+# =E8=BF=98=E5=8F=AF=E4=BB=A5=E7=94=A8 Print() =E5=87=BD=E6=95=B0=EF=BC=8C=
+=E5=8F=82=E6=95=B0=E5=92=8C=E4=B8=8A=E9=9D=A2=E4=B8=80=E6=A0=B7=EF=BC=8C=E9=
+=BB=98=E8=AE=A4=E5=80=BC=E4=B9=9F=E4=B8=80=E6=A0=B7=E3=80=82
+</code></pre>
+<h3>Get input   =E8=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5</h3>
+<h4>1.Get input with a function that gets color input   =E7=94=A8=E8=8E=B7=
+=E5=8F=96=E5=BD=A9=E8=89=B2=E8=BE=93=E5=85=A5=E7=9A=84=E5=87=BD=E6=95=B0=E8=
+=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5</h4>
+<h5>All functions   =E6=89=80=E6=9C=89=E5=87=BD=E6=95=B0</h5>
+<p>GetBlackInput()</p>
+<p>GetBlueInput()</p>
+<p>GetGlossWhiteInput()</p>
+<p>GetGrayInput()</p>
+<p>GetGreenInput()</p>
+<p>GetGreyInput()</p>
+<p>GetLightBlueInput()</p>
+<p>GetLightGreenInput()</p>
+<p>GetLightPurpleInput()</p>
+<p>GetLightRedInput()</p>
+<p>GetLightYellowInput()</p>
+<p>GetPurpleInput()</p>
+<p>GetRedInput()</p>
+<p>GetVeryLightGreenInput()</p>
+<p>GetWhiteInput()</p>
+<p>GetYellowInput()</p>
+<h5>Parameters   =E5=8F=82=E6=95=B0</h5>
+<p>prompt</p>
+<h5>Parameters explain    =E5=8F=82=E6=95=B0=E8=AF=B4=E6=98=8E</h5>
+<p>Prompt: The content used for prompt</p>
+<p>prompt: =E7=94=A8=E4=BA=8E=E6=8F=90=E7=A4=BA=E7=9A=84=E5=86=85=E5=AE=B9<=
+/p>
+<h4>2.Get input with a custom color   =E8=8E=B7=E5=8F=96=E8=87=AA=E5=AE=9A=
+=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E8=BE=93=E5=85=A5</h4>
+<pre><code class=3D"language-python">from color_text import *
+GetOtherColorInput(prompt=3D'', text_color=3DFOREGROUND_WHITE, background_c=
+olor=3DBACKGROUND_BLACK)
+
+# Note: Put the text_color parameter and background_color parameter in the =
+last command to program the color variables you want. See the end of the tu=
+torial for all color variables.
+# =E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E4=B8=80=E4=B8=AA=
+=E5=91=BD=E4=BB=A4=E4=B8=AD=E7=9A=84 text_color =E5=8F=82=E6=95=B0=E5=92=8C=
+ background_color =E5=8F=82=E6=95=B0=E7=BC=96=E7=A8=8B=E4=BD=A0=E6=83=B3=E8=
+=A6=81=E7=9A=84=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=EF=BC=8C=E6=89=80=E6=9C=
+=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=E8=AF=B7=E7=9C=8B=E6=95=99=E7=A8=8B=
+=E6=9C=80=E5=90=8E=EF=BC=8Cprompt =E5=8F=82=E6=95=B0=E6=98=AF=E7=94=A8=E4=
+=BA=8E=E6=8F=90=E7=A4=BA=E7=9A=84=E5=86=85=E5=AE=B9=E3=80=82
+# You can also use the GetInput() function with the same arguments and defa=
+ult values as above.
+# =E8=BF=98=E5=8F=AF=E4=BB=A5=E7=94=A8 GetInput() =E5=87=BD=E6=95=B0=EF=BC=
+=8C=E5=8F=82=E6=95=B0=E5=92=8C=E4=B8=8A=E9=9D=A2=E4=B8=80=E6=A0=B7=EF=BC=8C=
+=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B9=9F=E4=B8=80=E6=A0=B7=E3=80=82
+</code></pre>
+<h3>Set color   =E8=AE=BE=E7=BD=AE=E9=A2=9C=E8=89=B2</h3>
+<pre><code class=3D"language-python">from color_text import *
+
+set_cmd_text_color(color, handle =3D std_out_handle)
+resetColor(handle =3D std_out_handle)
+</code></pre>
+<p>The set_cmd_text_color () function is used to set the color of the text,=
+ where the color parameter is the color to be set and the handle parameter =
+is the handle to the color to be set (the default is std_out_handle).</p>
+<p>set_cmd_text_color() =E5=87=BD=E6=95=B0=E4=BD=BF=E7=94=A8=E6=9D=A5=E8=AE=
+=BE=E7=BD=AE=E6=96=87=E6=9C=AC=E9=A2=9C=E8=89=B2=E7=9A=84=EF=BC=8C=E5=85=B6=
+=E4=B8=AD color =E5=8F=82=E6=95=B0=E6=98=AF=E8=A6=81=E8=AE=BE=E5=AE=9A=E7=
+=9A=84=E9=A2=9C=E8=89=B2=EF=BC=8Chandle =E5=8F=82=E6=95=B0=E6=98=AF=E8=A2=
+=AB=E8=AE=BE=E5=AE=9A=E9=A2=9C=E8=89=B2=E7=9A=84=E5=8F=A5=E6=9F=84=EF=BC=88=
+=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA std_out_handle=EF=BC=89=E3=80=82</p>
+<p>The resetColor() function is used to restore the color to its default va=
+lue, where the handle parameter is the handle to the restored color (the de=
+fault is std_out_handle).</p>
+<p>resetColor() =E5=87=BD=E6=95=B0=E6=98=AF=E7=94=A8=E6=9D=A5=E5=B0=86=E9=
+=A2=9C=E8=89=B2=E6=81=A2=E5=A4=8D=E5=88=B0=E9=BB=98=E8=AE=A4=E5=80=BC=E7=9A=
+=84=EF=BC=8C=E5=85=B6=E4=B8=AD handle =E5=8F=82=E6=95=B0=E6=98=AF=E8=A2=AB=
+=E6=81=A2=E5=A4=8D=E9=A2=9C=E8=89=B2=E7=9A=84=E5=8F=A5=E6=9F=84=EF=BC=88=E9=
+=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA std_out_handle=EF=BC=89=E3=80=82</p>
+<p>See the end of the tutorial for all handle variables.</p>
+<p>=E6=89=80=E6=9C=89=E5=8F=A5=E6=9F=84=E5=8F=98=E9=87=8F=E8=A7=81=E6=95=99=
+=E7=A8=8B=E6=9C=80=E5=90=8E=E3=80=82</p>
+<h2>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h2>
+<ul>
+<li>
+<p>The help Markdown file, help HTML file, and help Word file have been add=
+ed to the package.</p>
+</li>
+<li>
+<p>=E5=9C=A8=E5=8C=85=E4=B8=AD=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=B8=AE=E5=8A=A9=
+ Markdown =E6=96=87=E4=BB=B6=E3=80=81=E5=B8=AE=E5=8A=A9 HTML =E6=96=87=E4=
+=BB=B6=E5=92=8C=E5=B8=AE=E5=8A=A9 Word =E6=96=87=E4=BB=B6=E3=80=82</p>
+</li>
+</ul>
+<h2>All color variables   =E6=89=80=E6=9C=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=
+=87=8F</h2>
+<h3>Text colors   =E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2</h3>
+<p>FOREGROUND_BLACK</p>
+<p>FOREGROUND_BLUE</p>
+<p>FOREGROUND_GREEN</p>
+<p>FOREGROUND_LIGHT_GREEN</p>
+<p>FOREGROUND_RED</p>
+<p>FOREGROUND_PURPLE</p>
+<p>FOREGROUND_YELLOW</p>
+<p>FOREGROUND_WHITE</p>
+<p>FOREGROUND_GREY</p>
+<p>FOREGROUND_LIGHT_BLUE</p>
+<p>FOREGROUND_LIGHT_GREEN_TWO</p>
+<p>FOREGROUND_VERY_LIGHT_GREEN</p>
+<p>FOREGROUND_LIGHT_RED</p>
+<p>FOREGROUND_LIGHT_PURPLE</p>
+<p>FOREGROUND_LIGHT_YELLOW</p>
+<p>FOREGROUND_GLOSS_WHITE</p>
+<h3>Background colors   =E8=83=8C=E6=99=AF=E9=A2=9C=E8=89=B2</h3>
+<p>BACKGROUND_BLACK</p>
+<p>BACKGROUND_BLUE</p>
+<p>BACKGROUND_GREEN</p>
+<p>BACKGROUND_LIGHT_GREEN</p>
+<p>BACKGROUND_RED</p>
+<p>BACKGROUND_PURPLE</p>
+<p>BACKGROUND_YELLOW</p>
+<p>BACKGROUND_WHITE</p>
+<p>BACKGROUND_GREY</p>
+<p>BACKGROUND_LIGHT_BLUE</p>
+<p>BACKGROUND_LIGHT_GREEN_TWO</p>
+<p>BACKGROUND_VERY_LIGHT_GREEN</p>
+<p>BACKGROUND_LIGHT_RED</p>
+<p>BACKGROUND_LIGHT_PURPLE</p>
+<p>BACKGROUND_LIGHT_YELLOW</p>
+<p>BACKGROUND_GLOSS_WHITE</p>
+<h2>All handle variables   =E6=89=80=E6=9C=89=E5=8F=A5=E6=9F=84=E5=8F=98=E9=
+=87=8F</h2>
+<p>std_out_handle</p>
+<p>std_error_handle</p>
+<p>std_input_handle</p>
+<h2>Update log   =E6=9B=B4=E6=96=B0=E6=97=A5=E5=BF=97</h2>
+<h3>v1.0.0</h3>
+<p>First version.</p>
+<p>=E7=AC=AC=E4=B8=80=E4=B8=AA=E7=89=88=E6=9C=AC=E3=80=82</p>
+<h3>v1.1.0</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>The tutorial is refined.</p>
+</li>
+<li>
+<p>=E7=BB=86=E5=8C=96=E4=BA=86=E6=95=99=E7=A8=8B=E3=80=82</p>
+</li>
+</ul>
+<h3>v1.1.1</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>The example() and Print() functions have been added.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86example() =E5=87=BD=E6=95=B0=E5=92=8C Print()=
+ =E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+</ul>
+<h3>v1.1.2</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added version information.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=89=88=E6=9C=AC=E4=BF=A1=E6=81=AF=E3=80=82=
+</p>
+</li>
+</ul>
+<h3>v1.1.3</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added tutorials in built-in function help().</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 help() =
+=E4=B8=AD=E7=9A=84=E6=95=99=E7=A8=8B=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.2</h3>
+<h4>What's new in this version =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added the PrintOtherColorText() function for printing custom color text.=
+</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=94=A8=E6=9D=A5=E6=89=93=E5=8D=B0=E8=87=AA=
+=E5=AE=9A=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E6=96=87=E5=AD=97=E7=9A=84 Pr=
+intOtherColorText() =E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+<li>
+<p>Added the ability to Print custom colored text to Print().</p>
+</li>
+<li>
+<p>=E7=BB=99 Print() =E5=87=BD=E6=95=B0=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=89=93=
+=E5=8D=B0=E8=87=AA=E5=AE=9A=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E6=96=87=E5=
+=AD=97=E7=9A=84=E5=8A=9F=E8=83=BD=E3=80=82</p>
+</li>
+<li>
+<p>Error messages are printed when an incompatible operating system is enco=
+untered.</p>
+</li>
+<li>
+<p>=E5=9C=A8=E9=81=87=E5=88=B0=E4=B8=8D=E5=85=BC=E5=AE=B9=E7=9A=84=E6=93=8D=
+=E4=BD=9C=E7=B3=BB=E7=BB=9F=E6=97=B6=E4=BC=9A=E6=89=93=E5=8D=B0=E9=94=99=E8=
+=AF=AF=E4=BF=A1=E6=81=AF=E3=80=82</p>
+</li>
+<li>
+<p>All functions that print colored text can be separated by commas like th=
+e built-in function print().</p>
+</li>
+<li>
+<p>=E8=AE=A9=E6=89=80=E6=9C=89=E6=89=93=E5=8D=B0=E6=9C=89=E9=A2=9C=E8=89=B2=
+=E7=9A=84=E6=96=87=E5=AD=97=E7=9A=84=E5=87=BD=E6=95=B0=E9=83=BD=E5=8F=AF=E4=
+=BB=A5=E5=83=8F=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 print() =E4=B8=80=E6=A0=
+=B7=E5=B0=86=E8=A6=81=E6=89=93=E5=8D=B0=E7=9A=84=E6=96=87=E5=AD=97=E7=94=A8=
+=E9=80=97=E5=8F=B7=E5=88=86=E5=BC=80=E3=80=82</p>
+</li>
+<li>
+<p>Added a function to get input.</p>
+</li>
+<li>
+<p>=E6=B7=BB=E5=8A=A0=E4=BA=86=E8=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5=E7=9A=84=
+=E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+<li>
+<p>Added detailed version information.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E8=AF=A6=E7=BB=86=E7=9A=84=E7=89=88=E6=9C=AC=
+=E4=BF=A1=E6=81=AF=E3=80=82</p>
+</li>
+<li>
+<p>Added the error screen buffer handle variable and the input screen buffe=
+r handle variable.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E9=94=99=E8=AF=AF=E5=B1=8F=E5=B9=95=E7=BC=93=
+=E5=86=B2=E5=8C=BA=E5=8F=A5=E6=9F=84=E7=9A=84=E5=8F=98=E9=87=8F=E5=92=8C=E8=
+=BE=93=E5=85=A5=E5=B1=8F=E5=B9=95=E7=BC=93=E5=86=B2=E5=8C=BA=E7=9A=84=E5=8F=
+=A5=E6=9F=84=E5=8F=98=E9=87=8F=E3=80=82</p>
+</li>
+<li>
+<p>The handle argument is added to the set_cmd_text_color() function and th=
+e resetColor() function.</p>
+</li>
+<li>
+<p>=E5=9C=A8 set_cmd_text_color() =E5=87=BD=E6=95=B0=E5=92=8C resetColor() =
+=E5=87=BD=E6=95=B0=E4=B8=AD=E6=B7=BB=E5=8A=A0=E4=BA=86=E5=8F=A5=E6=9F=84=E5=
+=8F=82=E6=95=B0=E3=80=82</p>
+</li>
+<li>
+<p>Added all_color variable to view all colors.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=94=A8=E6=9D=A5=E6=9F=A5=E7=9C=8B=E6=89=80=
+=E6=9C=89=E9=A2=9C=E8=89=B2=E7=9A=84 all_color =E5=8F=98=E9=87=8F=E3=80=82<=
+/p>
+</li>
+</ul>
+<h4>The problem to repair =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed a problem where the example() function had no output at some point=
+.</p>
+</li>
+<li>
+<p>=E8=A7=A3=E5=86=B3=E4=BA=86=E6=9F=90=E4=BA=9B=E6=97=B6=E5=80=99 example(=
+) =E5=87=BD=E6=95=B0=E6=B2=A1=E6=9C=89=E8=BE=93=E5=87=BA=E7=9A=84=E9=97=AE=
+=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed the problem of importing other libraries in some cases.</p>
+</li>
+<li>
+<p>=E8=A7=A3=E5=86=B3=E4=BA=86=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=E4=B8=8B=
+=E4=BC=9A=E5=AF=BC=E5=85=A5=E4=B8=80=E4=BA=9B=E5=85=B6=E5=AE=83=E5=BA=93=E7=
+=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed a problem in the tutorial.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E4=B8=80=
+=E4=B8=AA=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.3</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added tutorials for each function in the built-in help() function.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 help() =
+=E4=B8=AD=E6=AF=8F=E4=B8=AA=E5=87=BD=E6=95=B0=E7=9A=84=E6=95=99=E7=A8=8B=E3=
+=80=82</p>
+</li>
+<li>
+<p>Added update log.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=9B=B4=E6=96=B0=E6=97=A5=E5=BF=97=E3=80=82=
+</p>
+</li>
+</ul>
+<h4>The problem to repair   =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed a problem in the tutorial.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E4=B8=80=
+=E4=B8=AA=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.4</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added refined information variables.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=BB=86=E5=8C=96=E7=9A=84=E4=BF=A1=E6=81=AF=
+=E5=8F=98=E9=87=8F=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.6</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>A Chinese example has been added in color_text-example.cmd.</p>
+</li>
+<li>
+<p>=E5=9C=A8 color_text-example.cmd =E4=B8=AD=E5=A2=9E=E5=8A=A0=E4=BA=86=E4=
+=B8=AD=E6=96=87=E4=BE=8B=E5=AD=90=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.7</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>The help Markdown file, help HTML file, and help Word file have been add=
+ed to the package.</p>
+</li>
+<li>
+<p>=E5=9C=A8=E5=8C=85=E4=B8=AD=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=B8=AE=E5=8A=A9=
+ Markdown =E6=96=87=E4=BB=B6=E3=80=81=E5=B8=AE=E5=8A=A9 HTML =E6=96=87=E4=
+=BB=B6=E5=92=8C=E5=B8=AE=E5=8A=A9 Word =E6=96=87=E4=BB=B6=E3=80=82</p>
+</li>
+</ul>
+
+
+
+<!-- This document was created with MarkdownPad, the Markdown editor for Wi=
+ndows (http://markdownpad.com) -->
+</body></html>
+------MultipartBoundary--vbQRzhW1EGZypADSfvPryz6TlceErFqzbeA1bu7VnU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ffd08d2c-e930-4fcc-bd78-1174c435bfd2@mhtml.blink
+
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, cap=
+tion, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, emb=
+ed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, se=
+ction, summary, time, mark, audio, video { margin: 0px; padding: 0px; borde=
+r: 0px; }
+
+body { font-family: Helvetica, arial, freesans, clean, sans-serif; font-siz=
+e: 14px; line-height: 1.6; color: rgb(51, 51, 51); background-color: rgb(25=
+5, 255, 255); padding: 20px; max-width: 960px; margin: 0px auto; }
+
+body > :first-child { margin-top: 0px !important; }
+
+body > :last-child { margin-bottom: 0px !important; }
+
+p, blockquote, ul, ol, dl, table, pre { margin: 15px 0px; }
+
+h1, h2, h3, h4, h5, h6 { margin: 20px 0px 10px; padding: 0px; font-weight: =
+bold; -webkit-font-smoothing: antialiased; }
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 c=
+ode, h6 tt, h6 code { font-size: inherit; }
+
+h1 { font-size: 28px; color: rgb(0, 0, 0); }
+
+h2 { font-size: 24px; border-bottom: 1px solid rgb(204, 204, 204); color: r=
+gb(0, 0, 0); }
+
+h3 { font-size: 18px; }
+
+h4 { font-size: 16px; }
+
+h5 { font-size: 14px; }
+
+h6 { color: rgb(119, 119, 119); font-size: 14px; }
+
+body > h2:first-child, body > h1:first-child, body > h1:first-child + h2, b=
+ody > h3:first-child, body > h4:first-child, body > h5:first-child, body > =
+h6:first-child { margin-top: 0px; padding-top: 0px; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:f=
+irst-child h5, a:first-child h6 { margin-top: 0px; padding-top: 0px; }
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 10px; }
+
+a { color: rgb(65, 131, 196); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+ul, ol { padding-left: 30px; }
+
+ul li > :first-child, ol li > :first-child, ul li ul:first-of-type, ol li o=
+l:first-of-type, ul li ol:first-of-type, ol li ul:first-of-type { margin-to=
+p: 0px; }
+
+ul ul, ul ol, ol ol, ol ul { margin-bottom: 0px; }
+
+dl { padding: 0px; }
+
+dl dt { font-size: 14px; font-weight: bold; font-style: italic; padding: 0p=
+x; margin: 15px 0px 5px; }
+
+dl dt:first-child { padding: 0px; }
+
+dl dt > :first-child { margin-top: 0px; }
+
+dl dt > :last-child { margin-bottom: 0px; }
+
+dl dd { margin: 0px 0px 15px; padding: 0px 15px; }
+
+dl dd > :first-child { margin-top: 0px; }
+
+dl dd > :last-child { margin-bottom: 0px; }
+
+pre, code, tt { font-size: 12px; font-family: Consolas, "Liberation Mono", =
+Courier, monospace; }
+
+code, tt { margin: 0px; padding: 0px; white-space: nowrap; border: 1px soli=
+d rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: =
+3px; }
+
+pre > code { margin: 0px; padding: 0px; white-space: pre; border: none; bac=
+kground: transparent; }
+
+pre { background-color: rgb(248, 248, 248); border: 1px solid rgb(204, 204,=
+ 204); font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10p=
+x; border-radius: 3px; }
+
+pre code, pre tt { background-color: transparent; border: none; }
+
+kbd { background-color: rgb(221, 221, 221); background-image: linear-gradie=
+nt(rgb(241, 241, 241), rgb(221, 221, 221)); background-repeat: repeat-x; bo=
+rder-color: rgb(221, 221, 221) rgb(204, 204, 204) rgb(204, 204, 204) rgb(22=
+1, 221, 221); border-image: none 100% / 1 / 0 stretch; border-radius: 2px; =
+border-style: solid; border-width: 1px; font-family: "Helvetica Neue", Helv=
+etica, Arial, sans-serif; line-height: 10px; padding: 1px 4px; }
+
+blockquote { border-left: 4px solid rgb(221, 221, 221); padding: 0px 15px; =
+color: rgb(119, 119, 119); }
+
+blockquote > :first-child { margin-top: 0px; }
+
+blockquote > :last-child { margin-bottom: 0px; }
+
+hr { clear: both; margin: 15px 0px; height: 0px; overflow: hidden; border-t=
+op: none; border-right: none; border-left: none; border-image: initial; bac=
+kground: transparent; border-bottom: 4px solid rgb(221, 221, 221); padding:=
+ 0px; }
+
+table th { font-weight: bold; }
+
+table th, table td { border: 1px solid rgb(204, 204, 204); padding: 6px 13p=
+x; }
+
+table tr { border-top: 1px solid rgb(204, 204, 204); background-color: rgb(=
+255, 255, 255); }
+
+table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+
+img { max-width: 100%; }
+------MultipartBoundary--vbQRzhW1EGZypADSfvPryz6TlceErFqzbeA1bu7VnU------
