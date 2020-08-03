@@ -1,0 +1,15 @@
+README.md
+color_text-example.cmd
+setup.py
+color_text/__init__.py
+color_text/color.py
+color_text/example.py
+color_text/functions.py
+color_text/get_input.py
+color_text/handles.py
+color_text/output.py
+color_text.egg-info/PKG-INFO
+color_text.egg-info/SOURCES.txt
+color_text.egg-info/dependency_links.txt
+color_text.egg-info/not-zip-safe
+color_text.egg-info/top_level.txt
