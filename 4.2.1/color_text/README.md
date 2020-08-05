@@ -1,6 +1,6 @@
 # color_text
 
-![PyPI Version](https://img.shields.io/badge/pypi-v4.2.0-blue?logo=pypi)
+![PyPI Version](https://img.shields.io/badge/pypi-v4.2.1-blue?logo=pypi)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?logo=python)
 ![Language](https://img.shields.io/badge/language-python-green)
 ![License](https://img.shields.io/badge/license-MIT-green)

@@ -1,5 +1,14 @@
 # color_text
 
+![PyPI Version](https://img.shields.io/badge/pypi-v4.2.1-blue?logo=pypi)
+![Python Version](https://img.shields.io/badge/python-3.x-blue?logo=python)
+![Language](https://img.shields.io/badge/language-python-green)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Documents](https://img.shields.io/badge/docs-passing-lightsreen)
+![Build](https://img.shields.io/badge/build-passing-lightsreen)
+
+![Platform](https://img.shields.io/badge/platform-linux--64%20%7C%20linux--32%20%7C%20win--32%20%7C%20win--64%20%7C%20osx--32%20%7C%20osx--64-lightgrey)
+
 A library for printing colored text, getting colored input, changing Qt5 controls' colors.
 
 一个用来打印彩色文字、获取彩色的输入、更改Qt5控件的颜色的库。
@@ -553,23 +562,9 @@ color_text-examples
 
 ## What's new in this version   这个版本中的新功能
 
-- Added functions for adding image and text watermarks to videos.
+- Added tutorial badges.
 
-- 增加了给视频添加图片、文字水印的功能。
-
-## Repaired problems 问题修复
-
-- Fixed an issue where the example could not run in some cases.
-
-- 修复了在某些情况下无法运行示例的问题。
-
-- Fixed some bugs.
-
-- 修复了若干个 bug。
-
-- Fixed an issue where the modules could not import in some cases.
-
-- 修复了在某些情况下无法导入模块的问题。
+- 增加了教程的徽章。
 
 ## Update log   更新日志
 
@@ -800,3 +795,11 @@ First version.
 - Fixed an issue where the modules could not import in some cases.
 
 - 修复了在某些情况下无法导入模块的问题。
+
+### 4.2.1
+
+#### What's new in this version   这个版本中的新功能
+
+- Added tutorial badges.
+
+- 增加了教程的徽章。
