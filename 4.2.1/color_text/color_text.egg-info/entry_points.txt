@@ -1,0 +1,5 @@
+[console_scripts]
+color_text-examples = color_text:examples
+color_text-get_input_example = color_text:get_input_example
+color_text-output_example = color_text:output_example
+
