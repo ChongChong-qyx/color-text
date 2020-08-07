@@ -420,12 +420,12 @@ if system() == 'Windows':
 		for value in values:
 			times += 1
 			if times < len(values):
-				PrintOtherColorText(value, text_color = text_color, background_color = background_color, end = ' ')
+				PrintOtherColorText(value, color = text_color | background_color, end = ' ')
 			else:
 				PrintOtherColorText(value, text_color = text_color, background_color = background_color, end = '')
-		PrintOtherColorText('', text_color = text_color, background_color = background_color, end = end)
+		PrintOtherColorText('', color = text_color | background_color, end = end)
 
-	def PrintOtherColorText(*values, text_color=FOREGROUND_WHITE, background_color=BACKGROUND_BLACK, end='\n'):
+	def PrintOtherColorText(*values, color, end='\n'):
 		"""
 		Print other colors text.
 		打印其他颜色的文字。
@@ -434,14 +434,14 @@ if system() == 'Windows':
 		from .functions import set_cmd_text_color, resetColor
 		import sys
 		for value in values:
-			set_cmd_text_color(text_color | background_color)
+			set_cmd_text_color(color)
 			times += 1
 			if times < len(values):
 				sys.stdout.write(str(value) + ' ')
 			else:
 				sys.stdout.write(str(value))
 			resetColor()
-		set_cmd_text_color(text_color | background_color)
+		set_cmd_text_color(color)
 		try:
 			sys.stdout.write(end)
 		except:
