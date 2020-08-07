@@ -8,22 +8,22 @@ from platform import system
 if system() == 'Windows':
 	del system
 
-	FOREGROUND_BLACK =             0x00 # black                   a
-	FOREGROUND_BLUE =              0x01 # blue                    a
-	FOREGROUND_GREEN =             0x02 # green                   a
-	FOREGROUND_LIGHT_GREEN =       0x03 # light_green             a
-	FOREGROUND_RED =               0x04 # red                     a
-	FOREGROUND_PURPLE =            0x05 # purple                  a
-	FOREGROUND_YELLOW =            0x06 # yellow                  a
-	FOREGROUND_WHITE =             0x07 # white                   a
-	FOREGROUND_GREY =              0x08 # grey                    a
-	FOREGROUND_LIGHT_BLUE =        0x09 # light_blue              a
-	FOREGROUND_LIGHT_GREEN_TWO =   0x0a # another_light_green     a
-	FOREGROUND_VERY_LIGHT_GREEN =  0x0b # very_light_green        a
-	FOREGROUND_LIGHT_RED =         0x0c # light_red               a
-	FOREGROUND_LIGHT_PURPLE =      0x0d # light_purple            a
-	FOREGROUND_LIGHT_YELLOW =      0x0e # light_yellow            a
-	FOREGROUND_GLOSS_WHITE =       0x0f # gloss_white             a
+	FOREGROUND_BLACK =             0x00 # black
+	FOREGROUND_BLUE =              0x01 # blue
+	FOREGROUND_GREEN =             0x02 # green
+	FOREGROUND_LIGHT_GREEN =       0x03 # light_green
+	FOREGROUND_RED =               0x04 # red
+	FOREGROUND_PURPLE =            0x05 # purple
+	FOREGROUND_YELLOW =            0x06 # yellow
+	FOREGROUND_WHITE =             0x07 # white
+	FOREGROUND_GREY =              0x08 # grey
+	FOREGROUND_LIGHT_BLUE =        0x09 # light_blue
+	FOREGROUND_LIGHT_GREEN_TWO =   0x0a # another_light_green
+	FOREGROUND_VERY_LIGHT_GREEN =  0x0b # very_light_green
+	FOREGROUND_LIGHT_RED =         0x0c # light_red
+	FOREGROUND_LIGHT_PURPLE =      0x0d # light_purple
+	FOREGROUND_LIGHT_YELLOW =      0x0e # light_yellow
+	FOREGROUND_GLOSS_WHITE =       0x0f # gloss_white
 
 	BACKGROUND_BLACK =             0x00 # balck
 	BACKGROUND_BLUE =              0x10 # blue
