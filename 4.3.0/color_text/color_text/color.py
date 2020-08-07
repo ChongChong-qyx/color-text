@@ -59,5 +59,22 @@ if system() == 'Windows':
 	ALL_TEXT_FOREGROUND_LIGHT_YELLOW =     'E' # light_yellow
 	ALL_TEXT_FOREGROUND_GLOSS_WHITE =      'F' # gloss_white
 
+	ALL_TEXT_BACKGROUND_BLACK =            '0' # black
+	ALL_TEXT_BACKGROUND_BLUE =             '1' # blue
+	ALL_TEXT_BACKGROUND_GREEN =            '2' # green
+	ALL_TEXT_BACKGROUND_LIGHT_GREEN =      '3' # light_green
+	ALL_TEXT_BACKGROUND_RED =              '4' # red
+	ALL_TEXT_BACKGROUND_PURPLE =           '5' # purple
+	ALL_TEXT_BACKGROUND_YELLOW =           '6' # yellow
+	ALL_TEXT_BACKGROUND_WHITE =            '7' # white
+	ALL_TEXT_BACKGROUND_GREY =             '8' # grey
+	ALL_TEXT_BACKGROUND_LIGHT_BLUE =       '9' # light_blue
+	ALL_TEXT_BACKGROUND_LIGHT_GREEN_TWO =  'A' # another_light_green
+	ALL_TEXT_BACKGROUND_VERY_LIGHT_GREEN = 'B' # very_light_green
+	ALL_TEXT_BACKGROUND_LIGHT_RED =        'C' # light_red
+	ALL_TEXT_BACKGROUND_LIGHT_PURPLE =     'D' # light_purple
+	ALL_TEXT_BACKGROUND_LIGHT_YELLOW =     'E' # light_yellow
+	ALL_TEXT_BACKGROUND_GLOSS_WHITE =      'F' # gloss_white
+
 else:
 	del system
