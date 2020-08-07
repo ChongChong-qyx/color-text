@@ -37,6 +37,10 @@ if system() == 'Windows':
 		del FOREGROUND_RED, FOREGROUND_GREEN, FOREGROUND_BLUE
 
 	def set_all_text_color(text_color, background_color=0):
+		"""
+		Set all text color of a console.
+		设置一个控制台中所有文字的颜色。
+		"""
 		from os import system
 		system('color ' + background_color + text_color)
 		del system
