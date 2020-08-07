@@ -8,7 +8,6 @@ from platform import system
 if system() == 'Windows':
 	del system
 
-	# 字体颜色定义 text colors
 	FOREGROUND_BLACK =             0x00 # black                   a
 	FOREGROUND_BLUE =              0x01 # blue                    a
 	FOREGROUND_GREEN =             0x02 # green                   a
@@ -26,7 +25,6 @@ if system() == 'Windows':
 	FOREGROUND_LIGHT_YELLOW =      0x0e # light_yellow            a
 	FOREGROUND_GLOSS_WHITE =       0x0f # gloss_white             a
 
-	# 背景颜色定义 background colors
 	BACKGROUND_BLACK =             0x00 # balck
 	BACKGROUND_BLUE =              0x10 # blue
 	BACKGROUND_GREEN =             0x20 # green
@@ -43,6 +41,23 @@ if system() == 'Windows':
 	BACKGROUND_LIGHT_PURPLE =      0xd0 # light_purple
 	BACKGROUND_LIGHT_YELLOW =      0xe0 # light_yellow
 	BACKGROUND_GLOSS_WHITE =       0xf0 # gloss_white
+
+	ALL_TEXT_FOREGROUND_BLACK =            '0' # black
+	ALL_TEXT_FOREGROUND_BLUE =             '1' # blue
+	ALL_TEXT_FOREGROUND_GREEN =            '2' # green
+	ALL_TEXT_FOREGROUND_LIGHT_GREEN =      '3' # light_green
+	ALL_TEXT_FOREGROUND_RED =              '4' # red
+	ALL_TEXT_FOREGROUND_PURPLE =           '5' # purple
+	ALL_TEXT_FOREGROUND_YELLOW =           '6' # yellow
+	ALL_TEXT_FOREGROUND_WHITE =            '7' # white
+	ALL_TEXT_FOREGROUND_GREY =             '8' # grey
+	ALL_TEXT_FOREGROUND_LIGHT_BLUE =       '9' # light_blue
+	ALL_TEXT_FOREGROUND_LIGHT_GREEN_TWO =  'A' # another_light_green
+	ALL_TEXT_FOREGROUND_VERY_LIGHT_GREEN = 'B' # very_light_green
+	ALL_TEXT_FOREGROUND_LIGHT_RED =        'C' # light_red
+	ALL_TEXT_FOREGROUND_LIGHT_PURPLE =     'D' # light_purple
+	ALL_TEXT_FOREGROUND_LIGHT_YELLOW =     'E' # light_yellow
+	ALL_TEXT_FOREGROUND_GLOSS_WHITE =      'F' # gloss_white
 
 else:
 	del system
