@@ -36,5 +36,10 @@ if system() == 'Windows':
 		set_cmd_text_color(FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE, handle = handle)
 		del FOREGROUND_RED, FOREGROUND_GREEN, FOREGROUND_BLUE
 
+	def set_all_text_color(text_color, background_color=0):
+		from os import system
+		system('color ' + background_color + text_color)
+		del system
+
 else:
 	del system
