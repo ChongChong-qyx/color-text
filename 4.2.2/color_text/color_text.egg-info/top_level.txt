@@ -1,2 +1,0 @@
-color_text
-color_text/doc
