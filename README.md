@@ -1,6 +1,6 @@
 # color_text
 
-![PyPI Version](https://img.shields.io/badge/pypi-v4.2.1-blue?logo=pypi)
+![Package Version](https://img.shields.io/badge/version-v4.2.2-blue?logo=pypi)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?logo=python)
 ![Language](https://img.shields.io/badge/language-python-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -15,9 +15,9 @@ A library for printing colored text, getting colored input, changing Qt5 control
 
 ## Note  注意
 
-> Best use in Python 3.8.
+> Best use in Python 3.8 or new versions.
 
-> 最好在 Python 3.8 上使用。
+> 最好在 Python 3.8 或更高的版本中使用。
 
 > If you want to use all functions in this package, please use on Windows operating system.
 
@@ -432,9 +432,9 @@ Replace video_file in the above code with your video file, output_file with the 
 
 ###### Text watermark   文字水印
 
-{type: "photo", parameter: parameter}
+{type: "text", parameter: parameter}
 
-{type: "text", 参数: 参数}
+{type: "text", parameter: 参数}
 
 Note: please replace the above "parameter" with your parameters. See the article above for all parameters.
 
@@ -444,7 +444,7 @@ Note: please replace the above "parameter" with your parameters. See the article
 
 {type: "photo", parameter: parameter}
 
-{type: "photo", 参数: 参数}
+{type: "photo", parameter: 参数}
 
 Note: please replace the above "parameter" with your parameters. See the article above for all parameters.
 
@@ -803,3 +803,19 @@ First version.
 - Added tutorial badges.
 
 - 增加了教程的徽章。
+
+### 4.2.2
+
+#### Repaired problems   问题修复
+
+- Fixed an issue where the package does not run in Python 3.9.x and 3.10.x.
+
+- 修复了不能在 Python 3.9.x 和 Python 3.10.x 中运行的问题。
+
+- Fixed some problems in the document.
+
+- 修复了文档中的一些问题。
+
+- Fixes some bugs.
+
+- 修复了若干个 bug。

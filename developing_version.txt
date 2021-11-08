@@ -1,4 +1,2 @@
 Please don't download or use developing versions!
 请不要下载或使用正在开发的版本！
-
-4.2.2
