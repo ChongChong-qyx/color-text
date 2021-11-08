@@ -1,0 +1,1341 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/lenovo/AppData/Local/Temp/MarkdownPadPreview.html
+Subject: help
+Date: Mon, 8 Nov 2021 05:27:18 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----"
+
+
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: text/html
+Content-ID: <frame-367118CBE05DC7E0678C8B632008E8C2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/lenovo/AppData/Local/Temp/MarkdownPadPreview.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-767b4559-1b89-4235-a100-488b6ec93ac6@mhtml.blink" />
+<title>help</title>
+
+
+<base href=3D"file:///D:/%E8%99%AB%E8%99%AB%E6%96%87%E4%BB%B6/%E7%A8%8B%E5%=
+BA%8F/%E7%A8%8B%E5%BA%8F/Python/%E9%A1%B9%E7%9B%AE/%E7%AC%AC%E4%B8%89%E6%96=
+%B9%E5%BA%93%E6%BA%90%E4%BB%A3%E7%A0%81/color_text/%E6%BA%90%E4%BB%A3%E7%A0=
+%81/4.2.2/color_text/color_text/doc/">
+</head>
+<body>
+<h1>color_text</h1>
+<p><img src=3D"https://img.shields.io/badge/version-v4.2.2-blue?logo=3Dpypi=
+" alt=3D"Package Version">
+<img src=3D"https://img.shields.io/badge/python-3.x-blue?logo=3Dpython" alt=
+=3D"Python Version">
+<img src=3D"https://img.shields.io/badge/language-python-green" alt=3D"Lang=
+uage">
+<img src=3D"https://img.shields.io/badge/license-MIT-green" alt=3D"License"=
+>
+<img src=3D"https://img.shields.io/badge/docs-passing-lightsreen" alt=3D"Do=
+cuments">
+<img src=3D"https://img.shields.io/badge/build-passing-lightsreen" alt=3D"B=
+uild"></p>
+<p><img src=3D"https://img.shields.io/badge/platform-linux--64%20%7C%20linu=
+x--32%20%7C%20win--32%20%7C%20win--64%20%7C%20osx--32%20%7C%20osx--64-light=
+grey" alt=3D"Platform"></p>
+<p>A library for printing colored text, getting colored input, changing Qt5=
+ controls' colors.</p>
+<p>=E4=B8=80=E4=B8=AA=E7=94=A8=E6=9D=A5=E6=89=93=E5=8D=B0=E5=BD=A9=E8=89=B2=
+=E6=96=87=E5=AD=97=E3=80=81=E8=8E=B7=E5=8F=96=E5=BD=A9=E8=89=B2=E7=9A=84=E8=
+=BE=93=E5=85=A5=E3=80=81=E6=9B=B4=E6=94=B9Qt5=E6=8E=A7=E4=BB=B6=E7=9A=84=E9=
+=A2=9C=E8=89=B2=E7=9A=84=E5=BA=93=E3=80=82</p>
+<h2>Note  =E6=B3=A8=E6=84=8F</h2>
+<blockquote>
+<p>Best use in Python 3.8 or new versions.</p>
+</blockquote>
+<blockquote>
+<p>=E6=9C=80=E5=A5=BD=E5=9C=A8 Python 3.8 =E6=88=96=E6=9B=B4=E9=AB=98=E7=9A=
+=84=E7=89=88=E6=9C=AC=E4=B8=AD=E4=BD=BF=E7=94=A8=E3=80=82</p>
+</blockquote>
+<blockquote>
+<p>If you want to use all functions in this package, please use on Windows =
+operating system.</p>
+</blockquote>
+<blockquote>
+<p>=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=83=B3=E8=A6=81=E4=BD=BF=E7=94=A8=E8=BF=99=
+=E4=B8=AA=E5=BA=93=E7=9A=84=E6=89=80=E6=9C=89=E5=8A=9F=E8=83=BD=EF=BC=8C=E8=
+=AF=B7=E5=9C=A8 Windows =E6=93=8D=E4=BD=9C=E7=B3=BB=E7=BB=9F=E4=B8=8A=E4=BD=
+=BF=E7=94=A8=E3=80=82</p>
+</blockquote>
+<h2>Install  =E5=AE=89=E8=A3=85</h2>
+<h3>Linux</h3>
+<p>First execute the following command.</p>
+<p>=E5=85=88=E6=89=A7=E8=A1=8C=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A=
+</p>
+<pre><code class=3D"language-bash">pip3 --version
+</code></pre>
+<p>If there are no errors, pip has been installed.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=B2=A1=E6=9C=89=E9=94=99=E8=AF=AF=EF=BC=8C=E8=AF=B4=
+=E6=98=8E=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=A3=85=E4=BA=86 pip=E3=80=82</p>
+<p>If there is an error, please execute the following command.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=9C=89=E9=94=99=E8=AF=AF=EF=BC=8C=E8=AF=B7=E8=BE=93=
+=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=E4=BB=A5=E5=AE=89=E8=A3=85 pi=
+p=EF=BC=9A</p>
+<pre><code class=3D"language-bash">wget https://bootstrap.pypa.io/get-pip.p=
+y
+python3 get-pip.py
+</code></pre>
+<p>If pip is already installed, execute the following command.</p>
+<p>=E5=A6=82=E6=9E=9C=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=A3=85=E4=BA=86 pip=EF=
+=BC=8C=E8=AF=B7=E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=
+=9A</p>
+<pre><code class=3D"language-bash">pip3 install color_text
+</code></pre>
+<p>If you want to use the features related to Qt5, execute the following co=
+mmand.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=83=B3=E4=BD=BF=E7=94=A8=E6=9C=89=E5=85=B3 Qt5 =E7=
+=9A=84=E5=8A=9F=E8=83=BD=EF=BC=8C=E8=AF=B7=E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=
+=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<pre><code class=3D"language-bash">pip3 install PyQt5 PySide2
+</code></pre>
+<h3>Mac OS</h3>
+<p>First execute the following command.</p>
+<p>=E5=85=88=E6=89=A7=E8=A1=8C=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A=
+</p>
+<pre><code class=3D"language-bash">pip3 --version
+</code></pre>
+<p>If there are no errors, pip has been installed.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=B2=A1=E6=9C=89=E9=94=99=E8=AF=AF=EF=BC=8C=E8=AF=B4=
+=E6=98=8E=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=A3=85=E4=BA=86 pip=E3=80=82</p>
+<p>If there is an error, please execute the following command.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=9C=89=E9=94=99=E8=AF=AF=EF=BC=8C=E8=AF=B7=E8=BE=93=
+=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=E4=BB=A5=E5=AE=89=E8=A3=85 pi=
+p=EF=BC=9A</p>
+<pre><code class=3D"language-bash">sudo easy_install pip
+</code></pre>
+<p>If pip is already installed, execute the following command.</p>
+<p>=E5=A6=82=E6=9E=9C=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=A3=85=E4=BA=86 pip=EF=
+=BC=8C=E8=AF=B7=E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=
+=9A</p>
+<pre><code class=3D"language-bash">pip3 install color_text
+</code></pre>
+<p>If you want to use the features related to Qt5, execute the following co=
+mmand.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=83=B3=E4=BD=BF=E7=94=A8=E6=9C=89=E5=85=B3 Qt5 =E7=
+=9A=84=E5=8A=9F=E8=83=BD=EF=BC=8C=E8=AF=B7=E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=
+=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<pre><code class=3D"language-bash">pip3 install PyQt5 PySide2
+</code></pre>
+<h3>Windows</h3>
+<p>First execute the following command.</p>
+<p>=E5=85=88=E6=89=A7=E8=A1=8C=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A=
+</p>
+<pre><code class=3D"language-command">pip3 --version
+</code></pre>
+<p>If there are no errors, pip has been installed.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=B2=A1=E6=9C=89=E9=94=99=E8=AF=AF=EF=BC=8C=E8=AF=B4=
+=E6=98=8E=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=A3=85=E4=BA=86 pip</p>
+<p>If there is an error, please execute the following command.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=9C=89=E9=94=99=E8=AF=AF=EF=BC=8C=E8=AF=B7=E8=BE=93=
+=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=E4=BB=A5=E5=AE=89=E8=A3=85 pi=
+p=EF=BC=9A</p>
+<pre><code class=3D"language-command">curl https://bootstrap.pypa.io/get-pi=
+p.py -o get-pip.py
+python get-pip.py
+del /F /S /Q get-pip.py
+</code></pre>
+<p>If pip is already installed, execute the following command.</p>
+<p>=E5=A6=82=E6=9E=9C=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=A3=85=E4=BA=86 pip=EF=
+=BC=8C=E8=AF=B7=E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=
+=9A</p>
+<pre><code class=3D"language-command">pip3 install color_text
+</code></pre>
+<p>If you want to use the features related to Qt5, execute the following co=
+mmand.</p>
+<p>=E5=A6=82=E6=9E=9C=E6=83=B3=E4=BD=BF=E7=94=A8=E6=9C=89=E5=85=B3 Qt5 =E7=
+=9A=84=E5=8A=9F=E8=83=BD=EF=BC=8C=E8=AF=B7=E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=
+=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<pre><code class=3D"language-command">pip3 install PyQt5 PySide2
+</code></pre>
+<h2>Usage  =E4=BD=BF=E7=94=A8=E6=96=B9=E6=B3=95</h2>
+<h3>Output   =E8=BE=93=E5=87=BA</h3>
+<h4>1.Print with a function that prints colored text  =E7=94=A8=E6=89=93=E5=
+=8D=B0=E5=BD=A9=E8=89=B2=E6=96=87=E5=AD=97=E7=9A=84=E5=87=BD=E6=95=B0=E6=89=
+=93=E5=8D=B0=E6=96=87=E5=AD=97</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+printLightRedText("This is a light red text.")
+printYellowText("This is a yellow text.")
+printRedText("This is a red text.")
+printGreenText("This is a green text.")
+printBlackText("This is a black text.")
+printBlueText("This is a blue text.")
+printPurpleText("This is a purple text.")
+printWhiteText("This is a white text.")
+printGreyText("This is a grey text.")
+printGrayText("This is a grey text too.")
+printLightBlueText("This is a light blue text.")
+printVeryLightGreenText("This is a very light green text.")
+printLightPurpleText("This is a light purple text.")
+printLightYellowText("This is a light yellow text.")
+printGlossWhiteText("This is a gloss white text.")
+printLightGreenText("This is a light green text.")
+printLightGreenText("This is a light green text too.", 2)
+
+# You can see the result of this example in the library's output_example() =
+function or by typing "color_text-example.cmd" in CMD after installing the =
+library.
+# =E4=BD=A0=E5=8F=AF=E4=BB=A5=E5=9C=A8=E8=BF=99=E4=B8=AA=E5=BA=93=E7=9A=84 =
+output_example() =E5=87=BD=E6=95=B0=E4=B8=AD=E7=9C=8B=E5=88=B0=E8=BF=99=E4=
+=B8=AA=E4=BE=8B=E5=AD=90=E7=9A=84=E7=BB=93=E6=9E=9C=E3=80=82=EF=BC=88=E5=A6=
+=82=E6=9E=9C=E8=AE=A1=E7=AE=97=E6=9C=BA=E9=BB=98=E8=AE=A4=E8=AF=AD=E8=A8=80=
+=E6=98=AF=E4=B8=AD=E6=96=87=E7=9A=84=E5=B0=B1=E4=BC=9A=E7=9C=8B=E5=88=B0=E4=
+=B8=AD=E6=96=87=E7=BB=93=E6=9E=9C=EF=BC=8C=E5=87=BD=E6=95=B0=E7=9A=84=E9=A1=
+=BA=E5=BA=8F=E6=98=AF=E4=B8=80=E6=A0=B7=E7=9A=84=EF=BC=89
+</code></pre>
+<p>Parameters of all functions that print only one color text: values, end =
+(default is '\n')</p>
+<p>=E6=89=80=E6=9C=89=E5=8F=AA=E6=89=93=E5=8D=B0=E6=9F=90=E4=B8=80=E7=A7=8D=
+=E5=BD=A9=E8=89=B2=E6=96=87=E5=AD=97=E7=9A=84=E5=87=BD=E6=95=B0=E7=9A=84=E5=
+=8F=82=E6=95=B0=EF=BC=9Avalues, end =EF=BC=88=E9=BB=98=E8=AE=A4=E5=80=BC=E4=
+=B8=BA'\n'=EF=BC=89</p>
+<h4>2.Print text with custom colors   =E6=89=93=E5=8D=B0=E5=B8=A6=E6=9C=89=
+=E8=87=AA=E5=AE=9A=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E6=96=87=E6=9C=AC</h=
+4>
+<pre><code class=3D"language-python">from color_text import *
+printOtherColorText(values, text_color=3DFOREGROUND_WHITE, background_color=
+=3DBACKGROUND_BLACK, end=3D'\n')
+
+# Note: Put the text_color parameter and background_color parameter in the =
+last command to program the color variables you want. Please see the end of=
+ the tutorial for all color variables.
+# =E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E4=B8=80=E4=B8=AA=
+=E5=91=BD=E4=BB=A4=E4=B8=AD=E7=9A=84 text_color =E5=8F=82=E6=95=B0=E5=92=8C=
+ background_color =E5=8F=82=E6=95=B0=E7=BC=96=E7=A8=8B=E4=BD=A0=E6=83=B3=E8=
+=A6=81=E7=9A=84=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=EF=BC=8C=E6=89=80=E6=9C=
+=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=E8=AF=B7=E7=9C=8B=E6=95=99=E7=A8=8B=
+=E6=9C=80=E5=90=8E=EF=BC=8Cvalues =E5=8F=82=E6=95=B0=E6=98=AF=E8=A6=81=E6=
+=89=93=E5=8D=B0=E7=9A=84=E5=86=85=E5=AE=B9=EF=BC=8Cend =E5=8F=82=E6=95=B0=
+=E6=98=AF=E7=BB=93=E5=B0=BE=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA '\=
+n'=E3=80=82
+# You can also use the Print() function with the same arguments and default=
+ values.
+# =E8=BF=98=E5=8F=AF=E4=BB=A5=E7=94=A8 Print() =E5=87=BD=E6=95=B0=EF=BC=8C=
+=E5=8F=82=E6=95=B0=E5=92=8C=E4=B8=8A=E9=9D=A2=E4=B8=80=E6=A0=B7=EF=BC=8C=E9=
+=BB=98=E8=AE=A4=E5=80=BC=E4=B9=9F=E4=B8=80=E6=A0=B7=E3=80=82
+</code></pre>
+<h3>Get input   =E8=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5</h3>
+<h4>1.Get input with a function that gets color input   =E7=94=A8=E8=8E=B7=
+=E5=8F=96=E5=BD=A9=E8=89=B2=E8=BE=93=E5=85=A5=E7=9A=84=E5=87=BD=E6=95=B0=E8=
+=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5</h4>
+<h5>All functions   =E6=89=80=E6=9C=89=E5=87=BD=E6=95=B0</h5>
+<p>GetBlackInput()</p>
+<p>GetBlueInput()</p>
+<p>GetGlossWhiteInput()</p>
+<p>GetGrayInput()</p>
+<p>GetGreenInput()</p>
+<p>GetGreyInput()</p>
+<p>GetLightBlueInput()</p>
+<p>GetLightGreenInput()</p>
+<p>GetLightPurpleInput()</p>
+<p>GetLightRedInput()</p>
+<p>GetLightYellowInput()</p>
+<p>GetPurpleInput()</p>
+<p>GetRedInput()</p>
+<p>GetVeryLightGreenInput()</p>
+<p>GetWhiteInput()</p>
+<p>GetYellowInput()</p>
+<h5>Parameters   =E5=8F=82=E6=95=B0</h5>
+<p>prompt</p>
+<h5>Parameters explain    =E5=8F=82=E6=95=B0=E8=AF=B4=E6=98=8E</h5>
+<p>prompt: The content used for prompt</p>
+<p>prompt: =E7=94=A8=E4=BA=8E=E6=8F=90=E7=A4=BA=E7=9A=84=E5=86=85=E5=AE=B9<=
+/p>
+<h4>2.Get input with a custom color   =E8=8E=B7=E5=8F=96=E8=87=AA=E5=AE=9A=
+=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E8=BE=93=E5=85=A5</h4>
+<pre><code class=3D"language-python">from color_text import *
+GetOtherColorInput(prompt=3D'', text_color=3DFOREGROUND_WHITE, background_c=
+olor=3DBACKGROUND_BLACK)
+
+# Note: Put the text_color parameter and background_color parameter in the =
+last command to program the color variables you want. See the end of the tu=
+torial for all color variables.
+# =E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E4=B8=80=E4=B8=AA=
+=E5=91=BD=E4=BB=A4=E4=B8=AD=E7=9A=84 text_color =E5=8F=82=E6=95=B0=E5=92=8C=
+ background_color =E5=8F=82=E6=95=B0=E7=BC=96=E7=A8=8B=E4=BD=A0=E6=83=B3=E8=
+=A6=81=E7=9A=84=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=EF=BC=8C=E6=89=80=E6=9C=
+=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=87=8F=E8=AF=B7=E7=9C=8B=E6=95=99=E7=A8=8B=
+=E6=9C=80=E5=90=8E=EF=BC=8Cprompt =E5=8F=82=E6=95=B0=E6=98=AF=E7=94=A8=E4=
+=BA=8E=E6=8F=90=E7=A4=BA=E7=9A=84=E5=86=85=E5=AE=B9=E3=80=82
+# You can also use the GetInput() function with the same arguments and defa=
+ult values as above.
+# =E8=BF=98=E5=8F=AF=E4=BB=A5=E7=94=A8 GetInput() =E5=87=BD=E6=95=B0=EF=BC=
+=8C=E5=8F=82=E6=95=B0=E5=92=8C=E4=B8=8A=E9=9D=A2=E4=B8=80=E6=A0=B7=EF=BC=8C=
+=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B9=9F=E4=B8=80=E6=A0=B7=E3=80=82
+</code></pre>
+<h3>3.Set Consoles color   =E8=AE=BE=E7=BD=AE=E6=8E=A7=E5=88=B6=E5=8F=B0=E9=
+=A2=9C=E8=89=B2</h3>
+<pre><code class=3D"language-python">from color_text import *
+
+set_cmd_text_color(color, handle =3D std_out_handle)
+resetColor(handle =3D std_out_handle)
+</code></pre>
+<p>The set_cmd_text_color () function is used to set the color of the text,=
+ where the color parameter is the color to be set and the handle parameter =
+is the handle to the color to be set (the default is std_out_handle).</p>
+<p>set_cmd_text_color() =E5=87=BD=E6=95=B0=E4=BD=BF=E7=94=A8=E6=9D=A5=E8=AE=
+=BE=E7=BD=AE=E6=96=87=E6=9C=AC=E9=A2=9C=E8=89=B2=E7=9A=84=EF=BC=8C=E5=85=B6=
+=E4=B8=AD color =E5=8F=82=E6=95=B0=E6=98=AF=E8=A6=81=E8=AE=BE=E5=AE=9A=E7=
+=9A=84=E9=A2=9C=E8=89=B2=EF=BC=8Chandle =E5=8F=82=E6=95=B0=E6=98=AF=E8=A2=
+=AB=E8=AE=BE=E5=AE=9A=E9=A2=9C=E8=89=B2=E7=9A=84=E5=8F=A5=E6=9F=84=EF=BC=88=
+=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA std_out_handle=EF=BC=89=E3=80=82</p>
+<p>The resetColor() function is used to restore the color to its default va=
+lue, where the handle parameter is the handle to the restored color (the de=
+fault is std_out_handle).</p>
+<p>resetColor() =E5=87=BD=E6=95=B0=E6=98=AF=E7=94=A8=E6=9D=A5=E5=B0=86=E9=
+=A2=9C=E8=89=B2=E6=81=A2=E5=A4=8D=E5=88=B0=E9=BB=98=E8=AE=A4=E5=80=BC=E7=9A=
+=84=EF=BC=8C=E5=85=B6=E4=B8=AD handle =E5=8F=82=E6=95=B0=E6=98=AF=E8=A2=AB=
+=E6=81=A2=E5=A4=8D=E9=A2=9C=E8=89=B2=E7=9A=84=E5=8F=A5=E6=9F=84=EF=BC=88=E9=
+=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA std_out_handle=EF=BC=89=E3=80=82</p>
+<p>See the end of the tutorial for all handle variables.</p>
+<p>=E6=89=80=E6=9C=89=E5=8F=A5=E6=9F=84=E5=8F=98=E9=87=8F=E8=A7=81=E6=95=99=
+=E7=A8=8B=E6=9C=80=E5=90=8E=E3=80=82</p>
+<h3>4.Change the color of text of PyQt5 and PySide2 controls   =E6=9B=B4=E6=
+=94=B9 PyQt5 =E5=92=8C PySide2 =E7=9A=84=E6=8E=A7=E4=BB=B6=E7=9A=84=E6=96=
+=87=E5=AD=97=E7=9A=84=E9=A2=9C=E8=89=B2</h3>
+<pre><code class=3D"language-python">from color_text.PyQt5_util import *
+
+SetControlTextColor(control, color, controls=3D"*)
+</code></pre>
+<p>In the above example, replace the control parameter with your control ,t=
+he color parameter with the color you want and replae the controls paramete=
+r with controls that you want to change color (Default value is "*").</p>
+<p>=E5=9C=A8=E4=B8=8A=E9=9D=A2=E7=9A=84=E4=BE=8B=E5=AD=90=E4=B8=AD=EF=BC=8C=
+=E8=AF=B7=E6=8A=8A control =E5=8F=82=E6=95=B0=E6=9B=BF=E6=8D=A2=E6=88=90=E4=
+=BD=A0=E7=9A=84=E6=8E=A7=E4=BB=B6=EF=BC=8C=E6=8A=8A color =E5=8F=82=E6=95=
+=B0=E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E6=83=B3=E8=A6=81=E7=9A=84=E9=A2=9C=
+=E8=89=B2=EF=BC=8C=E6=8A=8A controls =E5=8F=82=E6=95=B0=E6=9B=BF=E6=8D=A2=
+=E6=88=90=E4=BD=A0=E8=A6=81=E6=9B=B4=E6=94=B9=E9=A2=9C=E8=89=B2=E7=9A=84=E6=
+=8E=A7=E4=BB=B6=EF=BC=88=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA=E2=80=9C*=E2=
+=80=9D=EF=BC=89=E3=80=82</p>
+<h4>Method of writing color parameters   =E9=A2=9C=E8=89=B2=E5=8F=82=E6=95=
+=B0=E7=9A=84=E5=86=99=E6=B3=95</h4>
+<h5>1.Use English words   =E4=BD=BF=E7=94=A8=E8=8B=B1=E6=96=87=E5=8D=95=E8=
+=AF=8D</h5>
+<h5>2.Control the amount of primary colors   =E6=8E=A7=E5=88=B6=E4=B8=89=E5=
+=8E=9F=E8=89=B2=E7=9A=84=E9=87=8F</h5>
+<h6>Method   =E5=86=99=E6=B3=95</h6>
+<pre><code class=3D"language-python">rgb(red, green, blue)
+
+# =E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E9=9D=A2=E7=9A=84 =
+red=E3=80=81green=E3=80=81blue =E5=8F=82=E6=95=B0=E6=9B=BF=E6=8D=A2=E6=88=
+=90=E7=BA=A2=E8=89=B2=E7=9A=84=E9=87=8F=E3=80=81=E7=BB=BF=E8=89=B2=E7=9A=84=
+=E9=87=8F=E3=80=81=E8=93=9D=E8=89=B2=E7=9A=84=E9=87=8F
+# Note: Replace the red, green and blue parameters with red, green and blue=
+ parameters.
+</code></pre>
+<h4>How to write the "controls" parameter   controls =E5=8F=82=E6=95=B0=E7=
+=9A=84=E5=86=99=E6=B3=95</h4>
+<p>If you have many controls, use ", "to separate each control; if you have=
+ only one, write that control; if you want to change the text color of all =
+controls, use" * ".</p>
+<p>=E5=A6=82=E6=9E=9C=E6=9C=89=E5=BE=88=E5=A4=9A=E6=8E=A7=E4=BB=B6=EF=BC=8C=
+=E7=94=A8=E2=80=9C, =E2=80=9D=E6=8A=8A=E6=AF=8F=E4=B8=80=E4=B8=AA=E6=8E=A7=
+=E4=BB=B6=E5=88=86=E5=BC=80=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=8F=AA=E6=9C=89=E4=
+=B8=80=E4=B8=AA=E6=8E=A7=E4=BB=B6=EF=BC=8C=E9=82=A3=E5=B0=B1=E5=86=99=E9=82=
+=A3=E4=B8=AA=E6=8E=A7=E4=BB=B6=EF=BC=8C=E5=A6=82=E6=9E=9C=E8=A6=81=E6=9B=B4=
+=E6=94=B9=E5=85=A8=E9=83=A8=E6=8E=A7=E4=BB=B6=E7=9A=84=E6=96=87=E5=AD=97=E9=
+=A2=9C=E8=89=B2=EF=BC=8C=E7=94=A8=E2=80=9C*=E2=80=9D=E3=80=82</p>
+<h3>5.Add image and text watermark to video   =E7=BB=99=E8=A7=86=E9=A2=91=
+=E6=B7=BB=E5=8A=A0=E5=9B=BE=E7=89=87=E3=80=81=E6=96=87=E5=AD=97=E6=B0=B4=E5=
+=8D=B0</h3>
+<h4>Add a image watermark   =E6=B7=BB=E5=8A=A0=E5=9B=BE=E7=89=87=E6=B0=B4=
+=E5=8D=B0</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+AddPhotoWatermarkToVideoFile(video_file, ouput_file, pos, photo_file, show_=
+informations=3DFalse)
+</code></pre>
+<h5>Parameters description =E5=8F=82=E6=95=B0=E8=AF=B4=E6=98=8E</h5>
+<h6>video_file</h6>
+<p>The file to be watermarked.</p>
+<p>=E8=A6=81=E8=A2=AB=E6=B7=BB=E5=8A=A0=E6=B0=B4=E5=8D=B0=E7=9A=84=E6=96=87=
+=E4=BB=B6=E3=80=82</p>
+<h6>output_file</h6>
+<p>Output file.</p>
+<p>=E8=BE=93=E5=87=BA=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>pos</h6>
+<p>The watermark position.</p>
+<p>=E6=B0=B4=E5=8D=B0=E6=96=B9=E4=BD=8D</p>
+<p>How to write it: (x-coordinate, y-coordinate)</p>
+<p>=E5=86=99=E6=B3=95=EF=BC=9A(x=E5=9D=90=E6=A0=87, y=E5=9D=90=E6=A0=87)</p=
+>
+<h6>photo_file</h6>
+<p>Image file.</p>
+<p>=E5=9B=BE=E7=89=87=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>show_informations</h6>
+<p>Whether to display the information given by FFmpeg, default value is Fal=
+se.</p>
+<p>=E6=98=AF=E5=90=A6=E6=98=BE=E7=A4=BA=E7=94=B1 FFmpeg =E7=BB=99=E5=87=BA=
+=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA Fa=
+lse=E3=80=82</p>
+<h4>Add a text watermark   =E6=B7=BB=E5=8A=A0=E6=96=87=E5=AD=97=E6=B0=B4=E5=
+=8D=B0</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+AddTextWatermarkToVideoFile(video_file, output_file, pos, font_file, text, =
+font_size, font_color, shadowy, show_informations=3DFalse)
+</code></pre>
+<h5>Parameters description =E5=8F=82=E6=95=B0=E8=AF=B4=E6=98=8E</h5>
+<h6>video_file</h6>
+<p>The file to be watermarked.</p>
+<p>=E8=A6=81=E8=A2=AB=E6=B7=BB=E5=8A=A0=E6=B0=B4=E5=8D=B0=E7=9A=84=E6=96=87=
+=E4=BB=B6=E3=80=82</p>
+<h6>output_file</h6>
+<p>Output file.</p>
+<p>=E8=BE=93=E5=87=BA=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>pos</h6>
+<p>The watermark position.</p>
+<p>=E6=B0=B4=E5=8D=B0=E6=96=B9=E4=BD=8D</p>
+<p>How to write it: (x-coordinate, y-coordinate)</p>
+<p>=E5=86=99=E6=B3=95=EF=BC=9A(x=E5=9D=90=E6=A0=87, y=E5=9D=90=E6=A0=87)</p=
+>
+<h6>font_file</h6>
+<p>Font file.</p>
+<p>=E5=AD=97=E4=BD=93=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h6>text</h6>
+<p>Text in watermarks.</p>
+<p>=E6=B0=B4=E5=8D=B0=E4=B8=AD=E7=9A=84=E6=96=87=E5=AD=97=E3=80=82</p>
+<h6>font_size</h6>
+<p>Font size.</p>
+<p>=E6=96=87=E5=AD=97=E5=A4=A7=E5=B0=8F=E3=80=82</p>
+<h6>font_color</h6>
+<p>Font color.</p>
+<p>=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=E3=80=82</p>
+<h6>shadowy</h6>
+<p>Shadow portion size.</p>
+<p>=E9=98=B4=E5=BD=B1=E9=83=A8=E5=88=86=E5=A4=A7=E5=B0=8F=E3=80=82</p>
+<h6>show_informations</h6>
+<p>Whether to display the information given by FFmpeg, default value is Fal=
+se.</p>
+<p>=E6=98=AF=E5=90=A6=E6=98=BE=E7=A4=BA=E7=94=B1 FFmpeg =E7=BB=99=E5=87=BA=
+=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA Fa=
+lse=E3=80=82</p>
+<h4>Add many watermarks   =E6=B7=BB=E5=8A=A0=E5=A4=A7=E9=87=8F=E6=B0=B4=E5=
+=8D=B0</h4>
+<pre><code class=3D"language-python">from color_text import *
+
+AddWatermarksToVideoFile(video_file, output_file, show_informations=3DFalse=
+, *args)
+</code></pre>
+<p>Replace video_file in the above code with your video file, output_file w=
+ith the output file, show_informations with True (you want FFmpeg for the i=
+nformation) or False (you don't want FFmpeg for the information, which is a=
+lso the default), and args with multiple dictionaries (separated by ", ").<=
+/p>
+<p>=E8=AF=B7=E5=B0=86=E4=B8=8A=E9=9D=A2=E4=BB=A3=E7=A0=81=E4=B8=AD=E7=9A=84=
+ video_file =E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E7=9A=84=E8=A7=86=E9=A2=91=
+=E6=96=87=E4=BB=B6=EF=BC=8C=E5=B0=86 output_file =E6=9B=BF=E6=8D=A2=E8=BE=
+=93=E5=87=BA=E6=96=87=E4=BB=B6=EF=BC=8Cshow_informations =E6=9B=BF=E6=8D=A2=
+=E6=88=90 True=EF=BC=88=E4=BD=A0=E6=83=B3=E8=A6=81 FFmpeg =E6=8F=90=E4=BE=
+=9B=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=89=E6=88=96 False=EF=BC=88=E4=BD=A0=E4=
+=B8=8D=E6=83=B3=E8=A6=81 FFmpeg =E6=8F=90=E4=BE=9B=E7=9A=84=E4=BF=A1=E6=81=
+=AF=EF=BC=8C=E4=B9=9F=E6=98=AF=E9=BB=98=E8=AE=A4=E5=80=BC=EF=BC=89=EF=BC=8C=
+=E5=B0=86 args =E6=9B=BF=E6=8D=A2=E4=B8=BA=E5=A4=9A=E4=B8=AA=E5=AD=97=E5=85=
+=B8=EF=BC=88=E7=94=A8=E2=80=9C, =E2=80=9D =E5=88=86=E9=9A=94=EF=BC=89=E3=80=
+=82</p>
+<h5>args =E5=8F=82=E6=95=B0=E7=9A=84=E5=86=99=E6=B3=95</h5>
+<h6>Text watermark   =E6=96=87=E5=AD=97=E6=B0=B4=E5=8D=B0</h6>
+<p>{type: "text", parameter: parameter}</p>
+<p>{type: "text", parameter: =E5=8F=82=E6=95=B0}</p>
+<p>Note: please replace the above "parameter" with your parameters. See the=
+ article above for all parameters.</p>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E9=9D=A2=E7=9A=84=
+=E2=80=9C=E5=8F=82=E6=95=B0=E2=80=9D=E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E7=
+=9A=84=E5=8F=82=E6=95=B0=EF=BC=8C=E6=89=80=E6=9C=89=E5=8F=82=E6=95=B0=E8=A7=
+=81=E4=B8=8A=E9=9D=A2=E7=9A=84=E6=96=87=E7=AB=A0=E3=80=82</p>
+<h6>Image watermark   =E5=9B=BE=E7=89=87=E6=B0=B4=E5=8D=B0</h6>
+<p>{type: "photo", parameter: parameter}</p>
+<p>{type: "photo", parameter: =E5=8F=82=E6=95=B0}</p>
+<p>Note: please replace the above "parameter" with your parameters. See the=
+ article above for all parameters.</p>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A=E6=B8=85=E6=8A=8A=E4=B8=8A=E9=9D=A2=E7=9A=84=
+=E2=80=9C=E5=8F=82=E6=95=B0=E2=80=9D=E6=9B=BF=E6=8D=A2=E6=88=90=E4=BD=A0=E7=
+=9A=84=E5=8F=82=E6=95=B0=EF=BC=8C=E6=89=80=E6=9C=89=E5=8F=82=E6=95=B0=E8=A7=
+=81=E4=B8=8A=E9=9D=A2=E7=9A=84=E6=96=87=E7=AB=A0=E3=80=82</p>
+<h2>All color variables   =E6=89=80=E6=9C=89=E9=A2=9C=E8=89=B2=E5=8F=98=E9=
+=87=8F</h2>
+<h3>Text colors   =E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2</h3>
+<p>FOREGROUND_BLACK</p>
+<p>FOREGROUND_BLUE</p>
+<p>FOREGROUND_GREEN</p>
+<p>FOREGROUND_LIGHT_GREEN</p>
+<p>FOREGROUND_RED</p>
+<p>FOREGROUND_PURPLE</p>
+<p>FOREGROUND_YELLOW</p>
+<p>FOREGROUND_WHITE</p>
+<p>FOREGROUND_GREY</p>
+<p>FOREGROUND_LIGHT_BLUE</p>
+<p>FOREGROUND_LIGHT_GREEN_TWO</p>
+<p>FOREGROUND_VERY_LIGHT_GREEN</p>
+<p>FOREGROUND_LIGHT_RED</p>
+<p>FOREGROUND_LIGHT_PURPLE</p>
+<p>FOREGROUND_LIGHT_YELLOW</p>
+<p>FOREGROUND_GLOSS_WHITE</p>
+<h3>Background colors   =E8=83=8C=E6=99=AF=E9=A2=9C=E8=89=B2</h3>
+<p>BACKGROUND_BLACK</p>
+<p>BACKGROUND_BLUE</p>
+<p>BACKGROUND_GREEN</p>
+<p>BACKGROUND_LIGHT_GREEN</p>
+<p>BACKGROUND_RED</p>
+<p>BACKGROUND_PURPLE</p>
+<p>BACKGROUND_YELLOW</p>
+<p>BACKGROUND_WHITE</p>
+<p>BACKGROUND_GREY</p>
+<p>BACKGROUND_LIGHT_BLUE</p>
+<p>BACKGROUND_LIGHT_GREEN_TWO</p>
+<p>BACKGROUND_VERY_LIGHT_GREEN</p>
+<p>BACKGROUND_LIGHT_RED</p>
+<p>BACKGROUND_LIGHT_PURPLE</p>
+<p>BACKGROUND_LIGHT_YELLOW</p>
+<p>BACKGROUND_GLOSS_WHITE</p>
+<h2>All handle variables   =E6=89=80=E6=9C=89=E5=8F=A5=E6=9F=84=E5=8F=98=E9=
+=87=8F</h2>
+<p>std_out_handle</p>
+<p>std_error_handle</p>
+<p>std_input_handle</p>
+<h2>Examples =E7=A4=BA=E4=BE=8B</h2>
+<h3>Note =E6=B3=A8=E6=84=8F</h3>
+<blockquote>
+<p>Examples of this library can only run on Windows systems.</p>
+</blockquote>
+<blockquote>
+<p>=E8=BF=99=E4=B8=AA=E5=BA=93=E7=9A=84=E7=A4=BA=E4=BE=8B=E5=8F=AA=E8=83=BD=
+=E5=9C=A8 Windows =E7=B3=BB=E7=BB=9F=E4=B8=AD=E8=BF=90=E8=A1=8C=E3=80=82</p=
+>
+</blockquote>
+<p>If you want to run a print text example of this library, install the lib=
+rary and enter the following command at CMD.</p>
+<p>=E5=A6=82=E6=9E=9C=E8=A6=81=E8=BF=90=E8=A1=8C=E8=BF=99=E4=B8=AA=E5=BA=93=
+=E7=9A=84=E6=89=93=E5=8D=B0=E6=96=87=E5=AD=97=E7=9A=84=E7=A4=BA=E4=BE=8B=EF=
+=BC=8C=E8=AF=B7=E5=AE=89=E8=A3=85=E6=9C=AC=E5=BA=93=EF=BC=8C=E5=B9=B6=E5=9C=
+=A8 CMD =E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<pre><code class=3D"language-command">color_text-output_example
+</code></pre>
+<p>If you want to run a get input example of this library, install the libr=
+ary and enter the following command at CMD.</p>
+<p>=E5=A6=82=E6=9E=9C=E8=A6=81=E8=BF=90=E8=A1=8C=E8=BF=99=E4=B8=AA=E5=BA=93=
+=E7=9A=84=E8=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5=E7=9A=84=E7=A4=BA=E4=BE=8B=EF=
+=BC=8C=E8=AF=B7=E5=AE=89=E8=A3=85=E6=9C=AC=E5=BA=93=EF=BC=8C=E5=B9=B6=E5=9C=
+=A8 CMD =E8=BE=93=E5=85=A5=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<pre><code class=3D"language-command">color_text-get_input_example
+</code></pre>
+<p>If you want to run all the examples of this library, install the library=
+ and enter the following command at CMD.</p>
+<p>=E5=A6=82=E6=9E=9C=E8=A6=81=E8=BF=90=E8=A1=8C=E8=BF=99=E4=B8=AA=E5=BA=93=
+=E7=9A=84=E6=89=80=E6=9C=89=E7=A4=BA=E4=BE=8B=EF=BC=8C=E8=AF=B7=E5=AE=89=E8=
+=A3=85=E6=9C=AC=E5=BA=93=EF=BC=8C=E5=B9=B6=E5=9C=A8 CMD =E8=BE=93=E5=85=A5=
+=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<pre><code class=3D"language-command">color_text-examples
+</code></pre>
+<h2>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h2>
+<ul>
+<li>
+<p>Added tutorial badges.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=95=99=E7=A8=8B=E7=9A=84=E5=BE=BD=E7=AB=A0=
+=E3=80=82</p>
+</li>
+</ul>
+<h2>Update log   =E6=9B=B4=E6=96=B0=E6=97=A5=E5=BF=97</h2>
+<h3>v1.0.0</h3>
+<p>First version.</p>
+<p>=E7=AC=AC=E4=B8=80=E4=B8=AA=E7=89=88=E6=9C=AC=E3=80=82</p>
+<h3>v1.1.0</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>The tutorial is refined.</p>
+</li>
+<li>
+<p>=E7=BB=86=E5=8C=96=E4=BA=86=E6=95=99=E7=A8=8B=E3=80=82</p>
+</li>
+</ul>
+<h3>v1.1.1</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>The example() and Print() functions have been added.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86 example() =E5=87=BD=E6=95=B0=E5=92=8C Print(=
+) =E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+</ul>
+<h3>v1.1.2</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added version information.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=89=88=E6=9C=AC=E4=BF=A1=E6=81=AF=E3=80=82=
+</p>
+</li>
+</ul>
+<h3>v1.1.3</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added tutorials in built-in function help().</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 help() =
+=E4=B8=AD=E7=9A=84=E6=95=99=E7=A8=8B=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.2</h3>
+<h4>What's new in this version =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added the PrintOtherColorText() function for printing custom color text.=
+</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=94=A8=E6=9D=A5=E6=89=93=E5=8D=B0=E8=87=AA=
+=E5=AE=9A=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E6=96=87=E5=AD=97=E7=9A=84 Pr=
+intOtherColorText() =E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+<li>
+<p>Added the ability to Print custom colored text to Print().</p>
+</li>
+<li>
+<p>=E7=BB=99 Print() =E5=87=BD=E6=95=B0=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=89=93=
+=E5=8D=B0=E8=87=AA=E5=AE=9A=E4=B9=89=E9=A2=9C=E8=89=B2=E7=9A=84=E6=96=87=E5=
+=AD=97=E7=9A=84=E5=8A=9F=E8=83=BD=E3=80=82</p>
+</li>
+<li>
+<p>Error messages are printed when an incompatible operating system is enco=
+untered.</p>
+</li>
+<li>
+<p>=E5=9C=A8=E9=81=87=E5=88=B0=E4=B8=8D=E5=85=BC=E5=AE=B9=E7=9A=84=E6=93=8D=
+=E4=BD=9C=E7=B3=BB=E7=BB=9F=E6=97=B6=E4=BC=9A=E6=89=93=E5=8D=B0=E9=94=99=E8=
+=AF=AF=E4=BF=A1=E6=81=AF=E3=80=82</p>
+</li>
+<li>
+<p>All functions that print colored text can be separated by commas like th=
+e built-in function print().</p>
+</li>
+<li>
+<p>=E8=AE=A9=E6=89=80=E6=9C=89=E6=89=93=E5=8D=B0=E6=9C=89=E9=A2=9C=E8=89=B2=
+=E7=9A=84=E6=96=87=E5=AD=97=E7=9A=84=E5=87=BD=E6=95=B0=E9=83=BD=E5=8F=AF=E4=
+=BB=A5=E5=83=8F=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 print() =E4=B8=80=E6=A0=
+=B7=E5=B0=86=E8=A6=81=E6=89=93=E5=8D=B0=E7=9A=84=E6=96=87=E5=AD=97=E7=94=A8=
+=E9=80=97=E5=8F=B7=E5=88=86=E5=BC=80=E3=80=82</p>
+</li>
+<li>
+<p>Added a function to get input.</p>
+</li>
+<li>
+<p>=E6=B7=BB=E5=8A=A0=E4=BA=86=E8=8E=B7=E5=8F=96=E8=BE=93=E5=85=A5=E7=9A=84=
+=E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+<li>
+<p>Added detailed version information.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E8=AF=A6=E7=BB=86=E7=9A=84=E7=89=88=E6=9C=AC=
+=E4=BF=A1=E6=81=AF=E3=80=82</p>
+</li>
+<li>
+<p>Added the error screen buffer handle variable and the input screen buffe=
+r handle variable.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E9=94=99=E8=AF=AF=E5=B1=8F=E5=B9=95=E7=BC=93=
+=E5=86=B2=E5=8C=BA=E5=8F=A5=E6=9F=84=E7=9A=84=E5=8F=98=E9=87=8F=E5=92=8C=E8=
+=BE=93=E5=85=A5=E5=B1=8F=E5=B9=95=E7=BC=93=E5=86=B2=E5=8C=BA=E7=9A=84=E5=8F=
+=A5=E6=9F=84=E5=8F=98=E9=87=8F=E3=80=82</p>
+</li>
+<li>
+<p>The handle argument is added to the set_cmd_text_color() function and th=
+e resetColor() function.</p>
+</li>
+<li>
+<p>=E5=9C=A8 set_cmd_text_color() =E5=87=BD=E6=95=B0=E5=92=8C resetColor() =
+=E5=87=BD=E6=95=B0=E4=B8=AD=E6=B7=BB=E5=8A=A0=E4=BA=86=E5=8F=A5=E6=9F=84=E5=
+=8F=82=E6=95=B0=E3=80=82</p>
+</li>
+<li>
+<p>Added all_color variable to view all colors.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=94=A8=E6=9D=A5=E6=9F=A5=E7=9C=8B=E6=89=80=
+=E6=9C=89=E9=A2=9C=E8=89=B2=E7=9A=84 all_color =E5=8F=98=E9=87=8F=E3=80=82<=
+/p>
+</li>
+</ul>
+<h4>Repaired problems =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed a problem where the example() function had no output at some point=
+.</p>
+</li>
+<li>
+<p>=E8=A7=A3=E5=86=B3=E4=BA=86=E6=9F=90=E4=BA=9B=E6=97=B6=E5=80=99 example(=
+) =E5=87=BD=E6=95=B0=E6=B2=A1=E6=9C=89=E8=BE=93=E5=87=BA=E7=9A=84=E9=97=AE=
+=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed the problem of importing other libraries in some cases.</p>
+</li>
+<li>
+<p>=E8=A7=A3=E5=86=B3=E4=BA=86=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=E4=B8=8B=
+=E4=BC=9A=E5=AF=BC=E5=85=A5=E4=B8=80=E4=BA=9B=E5=85=B6=E5=AE=83=E5=BA=93=E7=
+=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed a problem in the tutorial.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E4=B8=80=
+=E4=B8=AA=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.3</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added tutorials for each function in the built-in help() function.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 help() =
+=E4=B8=AD=E6=AF=8F=E4=B8=AA=E5=87=BD=E6=95=B0=E7=9A=84=E6=95=99=E7=A8=8B=E3=
+=80=82</p>
+</li>
+<li>
+<p>Added update log.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=9B=B4=E6=96=B0=E6=97=A5=E5=BF=97=E3=80=82=
+</p>
+</li>
+</ul>
+<h4>Repaired problems   =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed a problem in the tutorial.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E4=B8=80=
+=E4=B8=AA=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.4</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added refined information variables.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=BB=86=E5=8C=96=E7=9A=84=E4=BF=A1=E6=81=AF=
+=E5=8F=98=E9=87=8F=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.6</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>A Chinese example has been added in color_text-example.cmd.</p>
+</li>
+<li>
+<p>=E5=9C=A8 color_text-example.cmd =E4=B8=AD=E5=A2=9E=E5=8A=A0=E4=BA=86=E4=
+=B8=AD=E6=96=87=E4=BE=8B=E5=AD=90=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.7</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>The help Markdown file, help HTML file, and help Word file have been add=
+ed to the package.</p>
+</li>
+<li>
+<p>=E5=9C=A8=E5=8C=85=E4=B8=AD=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=B8=AE=E5=8A=A9=
+ Markdown =E6=96=87=E4=BB=B6=E3=80=81=E5=B8=AE=E5=8A=A9 HTML =E6=96=87=E4=
+=BB=B6=E5=92=8C=E5=B8=AE=E5=8A=A9 Word =E6=96=87=E4=BB=B6=E3=80=82</p>
+</li>
+</ul>
+<h3>v3.1.8</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Improved HTML tutorials in the package.</p>
+</li>
+<li>
+<p>=E6=94=B9=E8=BF=9B=E4=BA=86=E5=8C=85=E4=B8=AD=E7=9A=84 HTML =E6=95=99=E7=
+=A8=8B=E3=80=82</p>
+</li>
+<li>
+<p>Added function to open tutorials directly in package.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=9B=B4=E6=8E=A5=E6=89=93=E5=BC=80=E5=8C=85=
+=E4=B8=AD=E7=9A=84=E6=95=99=E7=A8=8B=E7=9A=84=E5=87=BD=E6=95=B0=E3=80=82</p=
+>
+</li>
+</ul>
+<h3>v4.0.0</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Functions that change controls of PyQt5 and PySide2 had been added.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=9B=B4=E6=94=B9 PyQt5 =E5=92=8C Pyside2 =
+=E7=9A=84=E6=8E=A7=E4=BB=B6=E7=9A=84=E5=87=BD=E6=95=B0=E3=80=82</p>
+</li>
+</ul>
+<h3>4.0.1</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Optimized the part of the installation library in the tutorial.</p>
+</li>
+<li>
+<p>=E4=BC=98=E5=8C=96=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E5=AE=89=E8=A3=85=
+=E5=BA=93=E7=9A=84=E9=83=A8=E5=88=86=E3=80=82</p>
+</li>
+<li>
+<p>Added a large number of examples.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E5=A4=A7=E9=87=8F=E7=A4=BA=E4=BE=8B=E3=80=82=
+</p>
+</li>
+<li>
+<p>Optimized the project description in PyPI.</p>
+</li>
+<li>
+<p>=E4=BC=98=E5=8C=96=E4=BA=86 PyPI =E4=B8=AD=E7=9A=84=E9=A1=B9=E7=9B=AE=E6=
+=8F=8F=E8=BF=B0=E3=80=82</p>
+</li>
+</ul>
+<h4>Repaired problems =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed several bugs in this tutorial.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E8=8B=A5=
+=E5=B9=B2=E4=B8=AA bug=E3=80=82</p>
+</li>
+<li>
+<p>Fixed a number of bugs encountered on Linux.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8 Linux =E7=B3=BB=E7=BB=9F=E4=B8=AD=
+=E4=BC=9A=E9=81=87=E5=88=B0=E7=9A=84=E8=8B=A5=E5=B9=B2=E4=B8=AA bug=E3=80=
+=82</p>
+</li>
+</ul>
+<h3>4.1.0</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added the ability to select some small Qt5 control to change the text co=
+lor when changing the text color of a large Qt5 control.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=9B=B4=E6=94=B9=E5=A4=A7 Qt5 =E6=8E=A7=E4=
+=BB=B6=E7=9A=84=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=E6=97=B6=EF=BC=8C=E9=80=
+=89=E6=8B=A9=E8=A6=81=E6=9B=B4=E6=94=B9=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=
+=E7=9A=84=E5=B0=8F Qt5 =E6=8E=A7=E4=BB=B6=E7=9A=84=E5=8A=9F=E8=83=BD=E3=80=
+=82</p>
+</li>
+<li>
+<p>Added 3 EXE examples.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86 3 =E4=B8=AA EXE =E7=A4=BA=E4=BE=8B=E3=80=82<=
+/p>
+</li>
+</ul>
+<h4>Repaired problems =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed a syntax error in the tutorial.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=95=99=E7=A8=8B=E4=B8=AD=E7=9A=84=E4=B8=80=
+=E4=B8=AA=E8=AF=AD=E6=B3=95=E9=94=99=E8=AF=AF=E3=80=82</p>
+</li>
+<li>
+<p>Fixed an issue where modules related to Qt5 could not be imported in som=
+e cases.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
+=E4=B8=8B=E6=97=A0=E6=B3=95=E5=AF=BC=E5=85=A5=E6=9C=89=E5=85=B3 Qt5 =E7=9A=
+=84=E6=A8=A1=E5=9D=97=E7=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed a problem that is other QSS failures after changing the text color=
+ of the Qt5 control.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=9B=B4=E6=94=B9 Qt5 =E6=8E=A7=E4=BB=B6=E7=
+=9A=84=E6=96=87=E5=AD=97=E9=A2=9C=E8=89=B2=E5=90=8E=EF=BC=8C=E5=85=B6=E5=AE=
+=83 QSS =E5=A4=B1=E6=95=88=E7=9A=84=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
+<h3>4.2.0</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added functions for adding image and text watermarks to videos.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E7=BB=99=E8=A7=86=E9=A2=91=E6=B7=BB=E5=8A=A0=
+=E5=9B=BE=E7=89=87=E3=80=81=E6=96=87=E5=AD=97=E6=B0=B4=E5=8D=B0=E7=9A=84=E5=
+=8A=9F=E8=83=BD=E3=80=82</p>
+</li>
+</ul>
+<h4>Repaired problems =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed an issue where the example could not run in some cases.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
+=E4=B8=8B=E6=97=A0=E6=B3=95=E8=BF=90=E8=A1=8C=E7=A4=BA=E4=BE=8B=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixed some bugs.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E8=8B=A5=E5=B9=B2=E4=B8=AA bug=E3=80=82</p>
+</li>
+<li>
+<p>Fixed an issue where the modules could not import in some cases.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=
+=E4=B8=8B=E6=97=A0=E6=B3=95=E5=AF=BC=E5=85=A5=E6=A8=A1=E5=9D=97=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+</ul>
+<h3>4.2.1</h3>
+<h4>What's new in this version   =E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E7=9A=84=E6=96=B0=E5=8A=9F=E8=83=BD</h4>
+<ul>
+<li>
+<p>Added tutorial badges.</p>
+</li>
+<li>
+<p>=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=95=99=E7=A8=8B=E7=9A=84=E5=BE=BD=E7=AB=A0=
+=E3=80=82</p>
+</li>
+</ul>
+<h3>4.2.2</h3>
+<h4>Repaired problems   =E9=97=AE=E9=A2=98=E4=BF=AE=E5=A4=8D</h4>
+<ul>
+<li>
+<p>Fixed an issue where the package does not run in Python 3.9.x and 3.10.x=
+.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E4=B8=8D=E8=83=BD=E5=9C=A8 Python 3.9.x =E5=
+=92=8C Python 3.10.x =E4=B8=AD=E8=BF=90=E8=A1=8C=E7=9A=84=E9=97=AE=E9=A2=98=
+=E3=80=82</p>
+</li>
+<li>
+<p>Fixed some problems in the document.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E6=96=87=E6=A1=A3=E4=B8=AD=E7=9A=84=E4=B8=80=
+=E4=BA=9B=E9=97=AE=E9=A2=98=E3=80=82</p>
+</li>
+<li>
+<p>Fixes some bugs.</p>
+</li>
+<li>
+<p>=E4=BF=AE=E5=A4=8D=E4=BA=86=E8=8B=A5=E5=B9=B2=E4=B8=AA bug=E3=80=82</p>
+</li>
+</ul>
+
+
+
+<!-- This document was created with MarkdownPad, the Markdown editor for Wi=
+ndows (http://markdownpad.com) -->
+</body></html>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-767b4559-1b89-4235-a100-488b6ec93ac6@mhtml.blink
+
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, cap=
+tion, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, emb=
+ed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, se=
+ction, summary, time, mark, audio, video { margin: 0px; padding: 0px; borde=
+r: 0px; }
+
+body { font-family: Helvetica, arial, freesans, clean, sans-serif; font-siz=
+e: 14px; line-height: 1.6; color: rgb(51, 51, 51); background-color: rgb(25=
+5, 255, 255); padding: 20px; max-width: 960px; margin: 0px auto; }
+
+body > :first-child { margin-top: 0px !important; }
+
+body > :last-child { margin-bottom: 0px !important; }
+
+p, blockquote, ul, ol, dl, table, pre { margin: 15px 0px; }
+
+h1, h2, h3, h4, h5, h6 { margin: 20px 0px 10px; padding: 0px; font-weight: =
+bold; -webkit-font-smoothing: antialiased; }
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 c=
+ode, h6 tt, h6 code { font-size: inherit; }
+
+h1 { font-size: 28px; color: rgb(0, 0, 0); }
+
+h2 { font-size: 24px; border-bottom: 1px solid rgb(204, 204, 204); color: r=
+gb(0, 0, 0); }
+
+h3 { font-size: 18px; }
+
+h4 { font-size: 16px; }
+
+h5 { font-size: 14px; }
+
+h6 { color: rgb(119, 119, 119); font-size: 14px; }
+
+body > h2:first-child, body > h1:first-child, body > h1:first-child + h2, b=
+ody > h3:first-child, body > h4:first-child, body > h5:first-child, body > =
+h6:first-child { margin-top: 0px; padding-top: 0px; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:f=
+irst-child h5, a:first-child h6 { margin-top: 0px; padding-top: 0px; }
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 10px; }
+
+a { color: rgb(65, 131, 196); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+ul, ol { padding-left: 30px; }
+
+ul li > :first-child, ol li > :first-child, ul li ul:first-of-type, ol li o=
+l:first-of-type, ul li ol:first-of-type, ol li ul:first-of-type { margin-to=
+p: 0px; }
+
+ul ul, ul ol, ol ol, ol ul { margin-bottom: 0px; }
+
+dl { padding: 0px; }
+
+dl dt { font-size: 14px; font-weight: bold; font-style: italic; padding: 0p=
+x; margin: 15px 0px 5px; }
+
+dl dt:first-child { padding: 0px; }
+
+dl dt > :first-child { margin-top: 0px; }
+
+dl dt > :last-child { margin-bottom: 0px; }
+
+dl dd { margin: 0px 0px 15px; padding: 0px 15px; }
+
+dl dd > :first-child { margin-top: 0px; }
+
+dl dd > :last-child { margin-bottom: 0px; }
+
+pre, code, tt { font-size: 12px; font-family: Consolas, "Liberation Mono", =
+Courier, monospace; }
+
+code, tt { margin: 0px; padding: 0px; white-space: nowrap; border: 1px soli=
+d rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: =
+3px; }
+
+pre > code { margin: 0px; padding: 0px; white-space: pre; border: none; bac=
+kground: transparent; }
+
+pre { background-color: rgb(248, 248, 248); border: 1px solid rgb(204, 204,=
+ 204); font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10p=
+x; border-radius: 3px; }
+
+pre code, pre tt { background-color: transparent; border: none; }
+
+kbd { background-color: rgb(221, 221, 221); background-image: linear-gradie=
+nt(rgb(241, 241, 241), rgb(221, 221, 221)); background-repeat: repeat-x; bo=
+rder-color: rgb(221, 221, 221) rgb(204, 204, 204) rgb(204, 204, 204) rgb(22=
+1, 221, 221); border-image: none 100% / 1 / 0 stretch; border-radius: 2px; =
+border-style: solid; border-width: 1px; font-family: "Helvetica Neue", Helv=
+etica, Arial, sans-serif; line-height: 10px; padding: 1px 4px; }
+
+blockquote { border-left: 4px solid rgb(221, 221, 221); padding: 0px 15px; =
+color: rgb(119, 119, 119); }
+
+blockquote > :first-child { margin-top: 0px; }
+
+blockquote > :last-child { margin-bottom: 0px; }
+
+hr { clear: both; margin: 15px 0px; height: 0px; overflow: hidden; border-t=
+op: none; border-right: none; border-left: none; border-image: initial; bac=
+kground: transparent; border-bottom: 4px solid rgb(221, 221, 221); padding:=
+ 0px; }
+
+table th { font-weight: bold; }
+
+table th, table td { border: 1px solid rgb(204, 204, 204); padding: 6px 13p=
+x; }
+
+table tr { border-top: 1px solid rgb(204, 204, 204); background-color: rgb(=
+255, 255, 255); }
+
+table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+
+img { max-width: 100%; }
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/version-v4.2.2-blue?logo=pypi
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"113" height=3D"20" role=3D"img" aria-label=3D"version:=
+ v4.2.2"><title>version: v4.2.2</title><linearGradient id=3D"s" x2=3D"0" y2=
+=3D"100%"><stop offset=3D"0" stop-color=3D"#bbb" stop-opacity=3D".1"/><stop=
+ offset=3D"1" stop-opacity=3D".1"/></linearGradient><clipPath id=3D"r"><rec=
+t width=3D"113" height=3D"20" rx=3D"3" fill=3D"#fff"/></clipPath><g clip-pa=
+th=3D"url(#r)"><rect width=3D"68" height=3D"20" fill=3D"#555"/><rect x=3D"6=
+8" width=3D"45" height=3D"20" fill=3D"#007ec6"/><rect width=3D"113" height=
+=3D"20" fill=3D"url(#s)"/></g><g fill=3D"#fff" text-anchor=3D"middle" font-=
+family=3D"Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering=3D"geometri=
+cPrecision" font-size=3D"110"><image x=3D"5" y=3D"3" width=3D"14" height=3D=
+"14" xlink:href=3D"data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzc3NUE5IiByb2=
+xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwM=
+DAvc3ZnIj48dGl0bGU+UHlQSTwvdGl0bGU+PHBhdGggZD0iTTIzLjkyMiAxMy41OHYzLjkxMkwy=
+MC41NSAxOC43MmwtLjA3OC4wNTUuMDUyLjAzNyAzLjQ1LTEuMjU2LjAyNi0uMDM2di0zLjk5N2w=
+tLjA1My0uMDM2LS4wMjUuMDkyeiBNMjMuNjIxIDUuNjE4bC0zLjA0IDEuMTA3djMuOTEybDMuMz=
+M5LTEuMjE1VjUuNTA5ek0yMy45MiAxMy40NTdWOS41NDRsLTMuMzM2IDEuMjE1djMuOTEzek0yM=
+C40NyAxNC43MVYxMC44TDE3LjE3IDEydjMuOTEzek0xNy4wMzQgMTkuOTk2di0zLjkxMmwtMy4z=
+MTMgMS4yMDZ2My45MTJ6TTE3LjE3IDE2LjA1N3YzLjg2OGwzLjMxNC0xLjIwNlYxNC44NWwtMy4=
+zMTQgMS4yMDZ6bTIuMDkzIDEuODgyYy0uMzY3LjEzNC0uNjYzLS4wNzQtLjY2My0uNDYzcy4yOT=
+YtLjgxNC42NjMtLjk0N2MuMzY1LS4xMzMuNjYyLjA3NS42NjIuNDY0cy0uMjk3LjgxNC0uNjYyL=
+jk0NnogTTEzLjIyNSA5LjMxNWwuMzY1LS4xMzItMy4yODUtMS4xOTctMy4zMjMgMS4yMS4xMDIu=
+MDM3IDMuMTg0IDEuMTZ6TTIwLjUwNyAxMC42NjRWNi43NTFMMTcuMTcgNy45NjV2My45MTN6TTE=
+3LjA1OCAxMS45MThWOC4wMDVsLTMuMzAyIDEuMjAydjMuOTEyek0xMy42NDMgOS4yNDZsLTMuMz=
+M2IDEuMjE1djMuOTEzbDMuMzM2LTEuMjE1ek02LjkwNyAxMy4xNjVsMy4zMjIgMS4yMDl2LTMuO=
+TEzTDYuOTA3IDkuMjUyeiBNMTAuMzQgNy44NzNsMy4yODEgMS4xOTNWNS4xOThsLTMuMjgtMS4x=
+OTN6TTIwLjUwNyAyLjcxNUwxNy4xOSAzLjkyMnYzLjkxM2wzLjMxNy0xLjIwN3pNMTYuOTUgMy4=
+5MDNMMTMuNzI0IDIuNzNsLTMuMjY5IDEuMTkgMy4yMjUgMS4xNzR6TTE1LjM2NSA0LjYwNmwtMS=
+42MjQuNTkydjMuODY4bDMuMzE3LTEuMjA3VjMuOTkxbC0xLjY5My42MTV6bS0uMzkxIDIuNzc4Y=
+y0uMzY3LjEzNC0uNjYyLS4wNzQtLjY2Mi0uNDY0cy4yOTUtLjgxMy42NjItLjk0NmMuMzY2LS4x=
+MzMuNjYzLjA3NC42NjMuNDY0cy0uMjk3LjgxMy0uNjYzLjk0NnogTTEwLjIyOSAxOC40MXYtMy4=
+5MTRsLTMuMzIyLTEuMjA5VjE3LjJ6TTEzLjY3OCAxNy4xODJ2LTMuOTEzbC0zLjM3MSAxLjIyN3=
+YzLjkxM3ogTTEzLjc1NiAxNy4xNTRsMy4zLTEuMlYxMi4wNGwtMy4zIDEuMnpNMTMuNjc4IDIxL=
+jIxN2wtMy4zNzEgMS4yMjd2LTMuOTEyaC0uMDc4djMuOTEybC0zLjMyMi0xLjIwOXYtMy45MTNs=
+LS4wNTMtLjA1OC0uMDI1LS4wNi0zLjMzNi0xLjIxdi0zLjk0OGwuMDM0LjAxMyAzLjI4NyAxLjE=
+5Ni4wMTUtLjA3OC0zLjI2MS0xLjE4NyAzLjI2LTEuMTg3di0uMTA5TDMuODc2IDkuNjJsLS4zMD=
+ctLjExMiAzLjI2LTEuMTg4di44NzdsLjA3OS0uMDU1VjYuNzY5bDMuMjU3IDEuMTg1LjA1OC0uM=
+DYxTDcuMDg0IDYuNzVsLS4xMDItLjAzNyAzLjI0LTEuMTc5di0uMDgzTDYuODU0IDYuNjc3di4w=
+MThsLS4wMjUuMDE4djEuNTIzTDMuNDQgOS40N3YuMDJsLS4wMjUuMDE3djQuMDA3bC0zLjM5IDE=
+uMjMzdi4wMTlMMCAxNC43ODR2My45OTVsLjAyNS4wMzcgMy40IDEuMjM3LjAwOC0uMDA2LjAwNy=
+4wMSAzLjQgMS4yMzguMDA4LS4wMDYuMDA2LjAxIDMuNCAxLjIzNy4wMTQtLjAwOS4wMTIuMDEgM=
+y40NS0xLjI1Ni4wMjYtLjAzNy0uMDc4LS4wMjd6TTMuNDkzIDkuNTYzbDMuMjU3IDEuMTg1LTMu=
+MjU3IDEuMTg3VjkuNTYyek0zLjQgMTkuOTZMLjA3OCAxOC43NTJ2LTMuOTEzbDIuMzYxLjg2Ljk=
+2LjM0OXYzLjkxM3ptLjAxNS0zLjk5TC4zMzUgMTQuODVsLS4xODItLjA2NiAzLjI2Mi0xLjE4N3=
+YyLjM3NHptMy4zOTkgNS4yMzFsLTMuMzIxLTEuMjA5di0zLjkxMmwzLjMyMSAxLjIwOXYzLjkxM=
+npNMjMuNzkxIDUuNDM0bC0zLjIxLTEuMTd2Mi4zMzh6TTIwLjM4NyAyLjY0M2wtMy4yNC0xLjE4=
+LTMuMjcgMS4xOSAzLjI0NyAxLjE4MnoiLz48L3N2Zz4=3D"/><text aria-hidden=3D"true"=
+ x=3D"435" y=3D"150" fill=3D"#010101" fill-opacity=3D".3" transform=3D"scal=
+e(.1)" textLength=3D"410">version</text><text x=3D"435" y=3D"140" transform=
+=3D"scale(.1)" fill=3D"#fff" textLength=3D"410">version</text><text aria-hi=
+dden=3D"true" x=3D"895" y=3D"150" fill=3D"#010101" fill-opacity=3D".3" tran=
+sform=3D"scale(.1)" textLength=3D"350">v4.2.2</text><text x=3D"895" y=3D"14=
+0" transform=3D"scale(.1)" fill=3D"#fff" textLength=3D"350">v4.2.2</text></=
+g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/python-3.x-blue?logo=python
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"93" height=3D"20" role=3D"img" aria-label=3D"python: 3=
+.x"><title>python: 3.x</title><linearGradient id=3D"s" x2=3D"0" y2=3D"100%"=
+><stop offset=3D"0" stop-color=3D"#bbb" stop-opacity=3D".1"/><stop offset=
+=3D"1" stop-opacity=3D".1"/></linearGradient><clipPath id=3D"r"><rect width=
+=3D"93" height=3D"20" rx=3D"3" fill=3D"#fff"/></clipPath><g clip-path=3D"ur=
+l(#r)"><rect width=3D"66" height=3D"20" fill=3D"#555"/><rect x=3D"66" width=
+=3D"27" height=3D"20" fill=3D"#007ec6"/><rect width=3D"93" height=3D"20" fi=
+ll=3D"url(#s)"/></g><g fill=3D"#fff" text-anchor=3D"middle" font-family=3D"=
+Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering=3D"geometricPrecision=
+" font-size=3D"110"><image x=3D"5" y=3D"3" width=3D"14" height=3D"14" xlink=
+:href=3D"data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzc3NkFCIiByb2xlPSJpbWci=
+IHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4=
+8dGl0bGU+UHl0aG9uPC90aXRsZT48cGF0aCBkPSJNMTQuMjUuMThsLjkuMi43My4yNi41OS4zLj=
+Q1LjMyLjM0LjM0LjI1LjM0LjE2LjMzLjEuMy4wNC4yNi4wMi4yLS4wMS4xM1Y4LjVsLS4wNS42M=
+y0uMTMuNTUtLjIxLjQ2LS4yNi4zOC0uMy4zMS0uMzMuMjUtLjM1LjE5LS4zNS4xNC0uMzMuMS0u=
+My4wNy0uMjYuMDQtLjIxLjAySDguNzdsLS42OS4wNS0uNTkuMTQtLjUuMjItLjQxLjI3LS4zMy4=
+zMi0uMjcuMzUtLjIuMzYtLjE1LjM3LS4xLjM1LS4wNy4zMi0uMDQuMjctLjAyLjIxdjMuMDZIMy=
+4xN2wtLjIxLS4wMy0uMjgtLjA3LS4zMi0uMTItLjM1LS4xOC0uMzYtLjI2LS4zNi0uMzYtLjM1L=
+S40Ni0uMzItLjU5LS4yOC0uNzMtLjIxLS44OC0uMTQtMS4wNS0uMDUtMS4yMy4wNi0xLjIyLjE2=
+LTEuMDQuMjQtLjg3LjMyLS43MS4zNi0uNTcuNC0uNDQuNDItLjMzLjQyLS4yNC40LS4xNi4zNi0=
+uMS4zMi0uMDUuMjQtLjAxaC4xNmwuMDYuMDFoOC4xNnYtLjgzSDYuMThsLS4wMS0yLjc1LS4wMi=
+0uMzcuMDUtLjM0LjExLS4zMS4xNy0uMjguMjUtLjI2LjMxLS4yMy4zOC0uMi40NC0uMTguNTEtL=
+jE1LjU4LS4xMi42NC0uMS43MS0uMDYuNzctLjA0Ljg0LS4wMiAxLjI3LjA1em0tNi4zIDEuOThs=
+LS4yMy4zMy0uMDguNDEuMDguNDEuMjMuMzQuMzMuMjIuNDEuMDkuNDEtLjA5LjMzLS4yMi4yMy0=
+uMzQuMDgtLjQxLS4wOC0uNDEtLjIzLS4zMy0uMzMtLjIyLS40MS0uMDktLjQxLjA5em0xMy4wOS=
+AzLjk1bC4yOC4wNi4zMi4xMi4zNS4xOC4zNi4yNy4zNi4zNS4zNS40Ny4zMi41OS4yOC43My4yM=
+S44OC4xNCAxLjA0LjA1IDEuMjMtLjA2IDEuMjMtLjE2IDEuMDQtLjI0Ljg2LS4zMi43MS0uMzYu=
+NTctLjQuNDUtLjQyLjMzLS40Mi4yNC0uNC4xNi0uMzYuMDktLjMyLjA1LS4yNC4wMi0uMTYtLjA=
+xaC04LjIydi44Mmg1Ljg0bC4wMSAyLjc2LjAyLjM2LS4wNS4zNC0uMTEuMzEtLjE3LjI5LS4yNS=
+4yNS0uMzEuMjQtLjM4LjItLjQ0LjE3LS41MS4xNS0uNTguMTMtLjY0LjA5LS43MS4wNy0uNzcuM=
+DQtLjg0LjAxLTEuMjctLjA0LTEuMDctLjE0LS45LS4yLS43My0uMjUtLjU5LS4zLS40NS0uMzMt=
+LjM0LS4zNC0uMjUtLjM0LS4xNi0uMzMtLjEtLjMtLjA0LS4yNS0uMDItLjIuMDEtLjEzdi01LjM=
+0bC4wNS0uNjQuMTMtLjU0LjIxLS40Ni4yNi0uMzguMy0uMzIuMzMtLjI0LjM1LS4yLjM1LS4xNC=
+4zMy0uMS4zLS4wNi4yNi0uMDQuMjEtLjAyLjEzLS4wMWg1Ljg0bC42OS0uMDUuNTktLjE0LjUtL=
+jIxLjQxLS4yOC4zMy0uMzIuMjctLjM1LjItLjM2LjE1LS4zNi4xLS4zNS4wNy0uMzIuMDQtLjI4=
+LjAyLS4yMVY2LjA3aDIuMDlsLjE0LjAxem0tNi40NyAxNC4yNWwtLjIzLjMzLS4wOC40MS4wOC4=
+0MS4yMy4zMy4zMy4yMy40MS4wOC40MS0uMDguMzMtLjIzLjIzLS4zMy4wOC0uNDEtLjA4LS40MS=
+0uMjMtLjMzLS4zMy0uMjMtLjQxLS4wOC0uNDEuMDh6Ii8+PC9zdmc+"/><text aria-hidden=
+=3D"true" x=3D"425" y=3D"150" fill=3D"#010101" fill-opacity=3D".3" transfor=
+m=3D"scale(.1)" textLength=3D"390">python</text><text x=3D"425" y=3D"140" t=
+ransform=3D"scale(.1)" fill=3D"#fff" textLength=3D"390">python</text><text =
+aria-hidden=3D"true" x=3D"785" y=3D"150" fill=3D"#010101" fill-opacity=3D".=
+3" transform=3D"scale(.1)" textLength=3D"170">3.x</text><text x=3D"785" y=
+=3D"140" transform=3D"scale(.1)" fill=3D"#fff" textLength=3D"170">3.x</text=
+></g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/language-python-green
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"110" height=3D"20" role=3D"img" aria-label=3D"language=
+: python"><title>language: python</title><linearGradient id=3D"s" x2=3D"0" =
+y2=3D"100%"><stop offset=3D"0" stop-color=3D"#bbb" stop-opacity=3D".1"/><st=
+op offset=3D"1" stop-opacity=3D".1"/></linearGradient><clipPath id=3D"r"><r=
+ect width=3D"110" height=3D"20" rx=3D"3" fill=3D"#fff"/></clipPath><g clip-=
+path=3D"url(#r)"><rect width=3D"61" height=3D"20" fill=3D"#555"/><rect x=3D=
+"61" width=3D"49" height=3D"20" fill=3D"#97ca00"/><rect width=3D"110" heigh=
+t=3D"20" fill=3D"url(#s)"/></g><g fill=3D"#fff" text-anchor=3D"middle" font=
+-family=3D"Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering=3D"geometr=
+icPrecision" font-size=3D"110"><text aria-hidden=3D"true" x=3D"315" y=3D"15=
+0" fill=3D"#010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLength=
+=3D"510">language</text><text x=3D"315" y=3D"140" transform=3D"scale(.1)" f=
+ill=3D"#fff" textLength=3D"510">language</text><text aria-hidden=3D"true" x=
+=3D"845" y=3D"150" fill=3D"#010101" fill-opacity=3D".3" transform=3D"scale(=
+.1)" textLength=3D"390">python</text><text x=3D"845" y=3D"140" transform=3D=
+"scale(.1)" fill=3D"#fff" textLength=3D"390">python</text></g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/license-MIT-green
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"78" height=3D"20" role=3D"img" aria-label=3D"license: =
+MIT"><title>license: MIT</title><linearGradient id=3D"s" x2=3D"0" y2=3D"100=
+%"><stop offset=3D"0" stop-color=3D"#bbb" stop-opacity=3D".1"/><stop offset=
+=3D"1" stop-opacity=3D".1"/></linearGradient><clipPath id=3D"r"><rect width=
+=3D"78" height=3D"20" rx=3D"3" fill=3D"#fff"/></clipPath><g clip-path=3D"ur=
+l(#r)"><rect width=3D"47" height=3D"20" fill=3D"#555"/><rect x=3D"47" width=
+=3D"31" height=3D"20" fill=3D"#97ca00"/><rect width=3D"78" height=3D"20" fi=
+ll=3D"url(#s)"/></g><g fill=3D"#fff" text-anchor=3D"middle" font-family=3D"=
+Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering=3D"geometricPrecision=
+" font-size=3D"110"><text aria-hidden=3D"true" x=3D"245" y=3D"150" fill=3D"=
+#010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLength=3D"370">lic=
+ense</text><text x=3D"245" y=3D"140" transform=3D"scale(.1)" fill=3D"#fff" =
+textLength=3D"370">license</text><text aria-hidden=3D"true" x=3D"615" y=3D"=
+150" fill=3D"#010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLengt=
+h=3D"210">MIT</text><text x=3D"615" y=3D"140" transform=3D"scale(.1)" fill=
+=3D"#fff" textLength=3D"210">MIT</text></g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/docs-passing-lightsreen
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"86" height=3D"20" role=3D"img" aria-label=3D"docs: pas=
+sing"><title>docs: passing</title><linearGradient id=3D"s" x2=3D"0" y2=3D"1=
+00%"><stop offset=3D"0" stop-color=3D"#bbb" stop-opacity=3D".1"/><stop offs=
+et=3D"1" stop-opacity=3D".1"/></linearGradient><clipPath id=3D"r"><rect wid=
+th=3D"86" height=3D"20" rx=3D"3" fill=3D"#fff"/></clipPath><g clip-path=3D"=
+url(#r)"><rect width=3D"35" height=3D"20" fill=3D"#555"/><rect x=3D"35" wid=
+th=3D"51" height=3D"20" fill=3D"#4c1"/><rect width=3D"86" height=3D"20" fil=
+l=3D"url(#s)"/></g><g fill=3D"#fff" text-anchor=3D"middle" font-family=3D"V=
+erdana,Geneva,DejaVu Sans,sans-serif" text-rendering=3D"geometricPrecision"=
+ font-size=3D"110"><text aria-hidden=3D"true" x=3D"185" y=3D"150" fill=3D"#=
+010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLength=3D"250">docs=
+</text><text x=3D"185" y=3D"140" transform=3D"scale(.1)" fill=3D"#fff" text=
+Length=3D"250">docs</text><text aria-hidden=3D"true" x=3D"595" y=3D"150" fi=
+ll=3D"#010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLength=3D"41=
+0">passing</text><text x=3D"595" y=3D"140" transform=3D"scale(.1)" fill=3D"=
+#fff" textLength=3D"410">passing</text></g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/build-passing-lightsreen
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"88" height=3D"20" role=3D"img" aria-label=3D"build: pa=
+ssing"><title>build: passing</title><linearGradient id=3D"s" x2=3D"0" y2=3D=
+"100%"><stop offset=3D"0" stop-color=3D"#bbb" stop-opacity=3D".1"/><stop of=
+fset=3D"1" stop-opacity=3D".1"/></linearGradient><clipPath id=3D"r"><rect w=
+idth=3D"88" height=3D"20" rx=3D"3" fill=3D"#fff"/></clipPath><g clip-path=
+=3D"url(#r)"><rect width=3D"37" height=3D"20" fill=3D"#555"/><rect x=3D"37"=
+ width=3D"51" height=3D"20" fill=3D"#4c1"/><rect width=3D"88" height=3D"20"=
+ fill=3D"url(#s)"/></g><g fill=3D"#fff" text-anchor=3D"middle" font-family=
+=3D"Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering=3D"geometricPreci=
+sion" font-size=3D"110"><text aria-hidden=3D"true" x=3D"195" y=3D"150" fill=
+=3D"#010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLength=3D"270"=
+>build</text><text x=3D"195" y=3D"140" transform=3D"scale(.1)" fill=3D"#fff=
+" textLength=3D"270">build</text><text aria-hidden=3D"true" x=3D"615" y=3D"=
+150" fill=3D"#010101" fill-opacity=3D".3" transform=3D"scale(.1)" textLengt=
+h=3D"410">passing</text><text x=3D"615" y=3D"140" transform=3D"scale(.1)" f=
+ill=3D"#fff" textLength=3D"410">passing</text></g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://img.shields.io/badge/platform-linux--64%20%7C%20linux--32%20%7C%20win--32%20%7C%20win--64%20%7C%20osx--32%20%7C%20osx--64-lightgrey
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" width=3D"374" height=3D"20" role=3D"img" aria-label=3D"platform=
+: linux-64 | linux-32 | win-32 | win-64 | osx-32 | osx-64"><title>platform:=
+ linux-64 | linux-32 | win-32 | win-64 | osx-32 | osx-64</title><linearGrad=
+ient id=3D"s" x2=3D"0" y2=3D"100%"><stop offset=3D"0" stop-color=3D"#bbb" s=
+top-opacity=3D".1"/><stop offset=3D"1" stop-opacity=3D".1"/></linearGradien=
+t><clipPath id=3D"r"><rect width=3D"374" height=3D"20" rx=3D"3" fill=3D"#ff=
+f"/></clipPath><g clip-path=3D"url(#r)"><rect width=3D"57" height=3D"20" fi=
+ll=3D"#555"/><rect x=3D"57" width=3D"317" height=3D"20" fill=3D"#9f9f9f"/><=
+rect width=3D"374" height=3D"20" fill=3D"url(#s)"/></g><g fill=3D"#fff" tex=
+t-anchor=3D"middle" font-family=3D"Verdana,Geneva,DejaVu Sans,sans-serif" t=
+ext-rendering=3D"geometricPrecision" font-size=3D"110"><text aria-hidden=3D=
+"true" x=3D"295" y=3D"150" fill=3D"#010101" fill-opacity=3D".3" transform=
+=3D"scale(.1)" textLength=3D"470">platform</text><text x=3D"295" y=3D"140" =
+transform=3D"scale(.1)" fill=3D"#fff" textLength=3D"470">platform</text><te=
+xt aria-hidden=3D"true" x=3D"2145" y=3D"150" fill=3D"#010101" fill-opacity=
+=3D".3" transform=3D"scale(.1)" textLength=3D"3070">linux-64 | linux-32 | w=
+in-32 | win-64 | osx-32 | osx-64</text><text x=3D"2145" y=3D"140" transform=
+=3D"scale(.1)" fill=3D"#fff" textLength=3D"3070">linux-64 | linux-32 | win-=
+32 | win-64 | osx-32 | osx-64</text></g></svg>
+------MultipartBoundary--LnXUhfQFoP6DnzMYG3VMZP8DEiDqmUzcfzYquuFd6H------
